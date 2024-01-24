@@ -69,6 +69,10 @@ th.desc:after {
     }
 
     th:after {
-        right: 2px; /* Adjust position of sorting icons */
+        right: initial;
+        top: initial;
+        transform: none;
+        position: relative;
+        margin-left: 5px; /* Add space between text and icon */
     }
 }
