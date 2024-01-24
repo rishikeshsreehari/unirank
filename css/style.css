@@ -52,3 +52,23 @@ th.asc:after {
 th.desc:after {
     content: '▼';
 }
+
+@media screen and (max-width: 600px) {
+    #searchBox {
+        width: 100%; /* Full width on small screens */
+        padding: 8px;
+    }
+
+    .filterBtn {
+        width: 100%; /* Full width for buttons */
+        margin-bottom: 10px; /* Spacing between buttons */
+    }
+
+    table, th, td {
+        font-size: 0.9em; /* Smaller font size for table */
+    }
+
+    th:after {
+        right: 2px; /* Adjust position of sorting icons */
+    }
+}
