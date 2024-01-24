@@ -23,30 +23,35 @@ $(document).ready(function(){
             $('th').eq(index).removeClass('desc').addClass('asc');
         }
 
-        $('th').not($('th').eq(index)).removeClass('asc').removeClass('desc'); // Remove icons from other headers
+        $('th').not($('th').eq(index)).removeClass('asc').removeClass('desc');
 
         for (var i = 0; i < rows.length; i++){table.append(rows[i]);}
     }
 
     function comparer(index, asc) {
         return function(a, b) {
-            var valA = getCellValue(a, index), valB = getCellValue(b, index);
-            return $.isNumeric(valA) && $.isNumeric(valB) ? valA - valB : valA.localeCompare(valB);
+            var valA = convertRank(getCellValue(a, index));
+            var valB = convertRank(getCellValue(b, index));
+            return valA - valB;
         };
+    }
+
+    function convertRank(value) {
+        if (value.includes('-')) {
+            var parts = value.split('-').map(Number);
+            return parts[0];
+        }
+        return parseFloat(value) || Number.MAX_SAFE_INTEGER;
     }
 
     function getCellValue(row, index){
         return $(row).children('td').eq(index).html();
     }
-});
 
-$(document).ready(function(){
     $('#searchbox').keyup(function() {
         var searchTerm = $(this).val().toLowerCase();
         $('#universitiesTable tbody tr').filter(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(searchTerm) > -1)
         });
     });
-
-
 });
