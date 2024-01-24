@@ -27,11 +27,16 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+    line-height: 20px; /* Adjust the line height as needed */
 }
 
 th {
     cursor: pointer;
     position: relative;
+}
+
+th:not(:first-child) {
+    width: 20%; /* Adjust the width as needed */
 }
 
 /* Add a pseudo-element for the sort icon */

@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     sortTable(defaultSortIndex, true);
 
-    $('th').click(function(){
+    $('th:not(:first-child)').click(function(){ // Only bind click event to non-first th elements
         var index = $(this).index();
         var asc = $(this).hasClass('asc');
         sortTable(index, !asc);
