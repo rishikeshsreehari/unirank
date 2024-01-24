@@ -48,5 +48,5 @@ $(document).ready(function(){
         });
     });
 
-    // ... (rest of your existing JavaScript code for sorting, etc.) ...
+
 });

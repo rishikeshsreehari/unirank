@@ -1,4 +1,29 @@
-<!DOCTYPE html>
+import csv
+import html
+
+def generate_html_table(csv_file_path):
+    html_rows = ''
+    with open(csv_file_path, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        next(reader, None)  # Skip the header row
+        for row in reader:
+            # Error handling for empty rows
+        
+            if not any(row):
+                continue
+
+            html_rows += '<tr>'
+            for cell in row:
+                html_rows += f'<td>{html.escape(cell)}</td>'
+            html_rows += '</tr>\n'
+    return html_rows
+
+if __name__ == "__main__":
+    csv_path = 'data.csv'  # Replace with your CSV file path
+    table_html = generate_html_table(csv_path)
+    
+    with open('index.html', 'w') as file:
+        file.write(f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,22 +53,11 @@
             </tr>
         </thead>
         <tbody>
-            <tr><td>Massachusetts Institute of Technology (MIT)</td><td>1</td><td>5</td><td>3</td></tr>
-<tr><td>Stanford University</td><td>2</td><td>8</td><td>6</td></tr>
-<tr><td>Harvard University</td><td>3</td><td>12</td><td>9</td></tr>
-<tr><td>California Institute of Technology (Caltech)</td><td>4</td><td>15</td><td>5</td></tr>
-<tr><td>University of Oxford</td><td>5</td><td>18</td><td>7</td></tr>
-<tr><td>University of Cambridge</td><td>6</td><td>20</td><td>10</td></tr>
-<tr><td>Imperial College London</td><td>7</td><td>25</td><td>12</td></tr>
-<tr><td>University of Chicago</td><td>8</td><td>30</td><td>14</td></tr>
-<tr><td>ETH Zurich</td><td>9</td><td>35</td><td>16</td></tr>
-<tr><td>University College London (UCL)</td><td>10</td><td>40</td><td>20</td></tr>
-<tr><td>Heriot-Watt University</td><td>12</td><td>899</td><td>343</td></tr>
-
+            {table_html}
         </tbody>
         
     </table>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html>""")
