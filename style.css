@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#searchBox {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+.filterBtn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+th {
+    cursor: pointer;
+    position: relative;
+}
+
+/* Add a pseudo-element for the sort icon */
+th:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Indicate ascending sort */
+th.asc:after {
+    content: '▲';
+}
+
+/* Indicate descending sort */
+th.desc:after {
+    content: '▼';
+}
