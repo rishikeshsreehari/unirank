@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#searchbox {
+    margin-bottom: 20px;
+    margin-left: 1px;
+    padding: 10px;
+    width: 75%;
+    max-width: 400px;
+}
+
+/* Remove cursor pointer for .filterBtn */
+.filterBtn {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    line-height: 1.5; /* Improved line height for readability */
+}
+
+/* Remove cursor pointer for th */
+th {
+    position: relative;
+}
+
+th:not(:first-child) {
+    width: 20%;
+}
+
+/* Add a pseudo-element for the sort icon */
+th:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Indicate ascending sort */
+th.asc:after {
+    content: '▲';
+}
+
+/* Indicate descending sort */
+th.desc:after {
+    content: '▼';
+}
+
+@media screen and (max-width: 600px) {
+    #searchBox {
+        width: 100%;
+        padding: 8px;
+    }
+
+    /* Remove cursor pointer for .filterBtn */
+    .filterBtn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    th:after {
+        right: initial;
+        top: initial;
+        transform: none;
+        position: relative;
+        margin-left: 5px;
+    }
+}
+
+/* Initially hide the light icon */
+#light-icon {
+    display: none;
+    font-size: 20px; /* Adjust this value as needed */
+}
+
+
+#dark-icon {
+    font-size: 20px; /* Adjust this value as needed */
+
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* or space-around */
+}
+
+* {
+    cursor: default;
+}

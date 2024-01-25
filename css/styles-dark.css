@@ -1,21 +1,25 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
 }
 
 #searchbox {
     margin-bottom: 20px;
     margin-left: 1px;
-
     padding: 10px;
     width: 75%; /* Change width to 75% */
     max-width: 400px; /* Add max-width to limit the width to 400px */
+    background-color: #444; /* Dark background color for search box */
+    color: #fff; /* Light text color for search box */
 }
-
 
 .filterBtn {
     padding: 10px 20px;
     margin-right: 10px;
     cursor: pointer;
+    background-color: #555; /* Dark background color for buttons */
+    color: #fff; /* Light text color for buttons */
 }
 
 table {
@@ -24,19 +28,17 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #555; /* Dark border color */
     padding: 8px;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #666; /* Dark background color for table headers */
     line-height: 20px; /* Adjust the line height as needed */
-}
-
-th {
     cursor: pointer;
     position: relative;
+    color: #fff; /* Light text color for table headers */
 }
 
 th:not(:first-child) {
@@ -55,15 +57,17 @@ th:after {
 /* Indicate ascending sort */
 th.asc:after {
     content: '▲';
+    color: #fff; /* Light color for ascending icon */
 }
 
 /* Indicate descending sort */
 th.desc:after {
     content: '▼';
+    color: #fff; /* Light color for descending icon */
 }
 
 @media screen and (max-width: 600px) {
-    #searchBox {
+    #searchbox {
         width: 100%; /* Full width on small screens */
         padding: 8px;
     }
@@ -85,3 +89,26 @@ th.desc:after {
         margin-left: 5px; /* Add space between text and icon */
     }
 }
+
+/* Initially hide the light icon */
+#light-icon {
+    display: none;
+    font-size: 20px; /* Adjust this value as needed */
+}
+
+
+#dark-icon {
+    font-size: 20px; /* Adjust this value as needed */
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* or space-around */
+}
+
+* {
+    cursor: default;
+}
+

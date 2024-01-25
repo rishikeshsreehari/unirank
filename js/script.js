@@ -55,3 +55,28 @@ $(document).ready(function(){
         });
     });
 });
+
+
+// Function to toggle between dark and light modes
+function toggleDarkLightMode() {
+    var stylesheet = document.getElementById("stylesheet");
+    var lightIcon = document.getElementById("light-icon");
+    var darkIcon = document.getElementById("dark-icon");
+
+    if (stylesheet.getAttribute("href") === "css/styles-dark.css") {
+        stylesheet.setAttribute("href", "css/styles-light.css");
+        lightIcon.style.display = "none";
+        darkIcon.style.display = "inline-block";
+    } else {
+        stylesheet.setAttribute("href", "css/styles-dark.css");
+        lightIcon.style.display = "inline-block";
+        darkIcon.style.display = "none";
+    }
+}
+
+// Add a click event listener to the mode toggle icon
+document.getElementById("dark-light-toggle").addEventListener("click", toggleDarkLightMode);
+
+// Initially, set the dark button to be shown since light mode is active by default
+var darkIcon = document.getElementById("dark-icon");
+darkIcon.style.display = "inline-block";
