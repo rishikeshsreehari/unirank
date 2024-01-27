@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // Default sort for QS Ranking
     var defaultSortIndex = $('th').filter(function() {
-        return $(this).text() === 'QS Ranking';
+        return $(this).text() === 'QS(2024)';
     }).index();
 
     sortTable(defaultSortIndex, true);

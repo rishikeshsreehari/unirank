@@ -1,0 +1,603 @@
+qs_name,qs_rank,shan_name_best_match,shan_rank,score
+Massachusetts Institute of Technology (MIT) ,1,massachusetts institute of technology (mit),3,100
+University of Cambridge,2,university of cambridge,4,100
+University of Oxford,3,university of oxford,7,100
+Harvard University,4,harvard university,1,100
+Stanford University,5,stanford university,2,100
+Imperial College London,6,imperial college london,23,100
+ETH Zurich - Swiss Federal Institute of Technology,7,eth zurich,20,90
+National University of Singapore (NUS),8,national university of singapore,71,95
+UCL,9,paris-saclay university,15,60
+"University of California, Berkeley (UCB)",10,"university of california, berkeley",5,95
+University of Chicago,11,university of chicago,10,100
+University of Pennsylvania,12,university of pennsylvania,14,100
+Cornell University,13,cornell university,12,100
+The University of Melbourne,14,the university of melbourne,35,100
+California Institute of Technology (Caltech),15,california institute of technology,9,95
+Yale University,16,yale university,11,100
+Peking University,17,peking university,29,100
+Princeton University,17,princeton university,6,100
+The University of New South Wales (UNSW Sydney),19,the university of new south wales,72,95
+The University of Sydney,19,university of sydney,73,95
+University of Toronto,21,university of toronto,24,100
+The University of Edinburgh,22,the university of edinburgh,38,100
+Columbia University,23,columbia university,8,100
+Université PSL,24,psl university,41,91
+Tsinghua University,25,tsinghua university,22,100
+"Nanyang Technological University, Singapore (NTU)",26,nanyang technological university,93,90
+The University of Hong Kong,26,the university of hong kong,88,100
+Johns Hopkins University,28,johns hopkins university,16,100
+The University of Tokyo,28,the university of tokyo,27,100
+"University of California, Los Angeles (UCLA)",29,"university of california, los angeles",13,95
+McGill University,30,mcgill university,70,100
+The University of Manchester,32,the university of manchester,41,100
+University of Michigan-Ann Arbor,33,university of michigan-ann arbor,26,100
+The Australian National University,34,the australian national university,84,100
+University of British Columbia,34,university of british columbia,44,100
+EPFL,36,EPFL,54,68
+Technical University of Munich,37,technical university of munich,59,100
+Institut Polytechnique de Paris,38,institut polytechnique de paris,301-400,100
+New York University (NYU),38,new york university,28,95
+King's College London,40,king's college london,59,100
+Seoul National University,41,seoul national university,94,100
+Monash University,42,monash university,77,100
+The University of Queensland,43,the university of queensland,51,100
+Zhejiang University,44,zhejiang university,33,100
+The London School of Economics and Political Science (LSE),45,london school of economics and political science,151-200,95
+Kyoto University,46,kyoto university,39,100
+Delft University of Technology,47,delft university of technology,151-200,100
+Northwestern University,47,northwestern university,30,100
+The Chinese University of Hong Kong (CUHK),47,the chinese university of hong kong,101-150,95
+Fudan University,50,fudan university,56,100
+Shanghai Jiao Tong University,51,shanghai jiao tong university,46,100
+Carnegie Mellon University,52,carnegie mellon university,101-150,100
+University of Amsterdam,53,university of amsterdam,101-150,100
+Ludwig-Maximilians-Universit�t M�nchen,54,Ludwig-Maximilians-Universit�t M�nchen,-,79
+University of Bristol,55,university of bristol,88,100
+KAIST - Korea Advanced Institute of Science & Technology,56,korea advanced institute of science and technology,201-300,91
+Duke University,57,duke university,34,100
+University of Texas at Austin,58,the university of texas at austin,43,95
+Sorbonne University,59,sorbonne university,46,100
+The Hong Kong University of Science and Technology,60,the hong kong university of science and technology,301-400,100
+KU Leuven,61,ku leuven,86,100
+"University of California, San Diego (UCSD)",62,"university of california, san diego",19,95
+University of Washington,63,university of washington,18,100
+University of Illinois at Urbana-Champaign,64,university of illinois urbana-champaign,52,96
+The Hong Kong Polytechnic University,65,the hong kong polytechnic university,151-200,100
+Universiti Malaya (UM),65,university of malaya,401-500,81
+The University of Warwick,67,university of warwick,101-150,95
+The University of Auckland,68,the university of auckland,201-300,100
+National Taiwan University (NTU),69,national taiwan university,201-300,95
+City University of Hong Kong,70,city university of hong kong,101-150,100
+Universit� Paris-Saclay,71,paris-saclay university,15,93
+The University of Western Australia,72,the university of western australia,101-150,100
+Brown University,73,brown university,98,100
+KTH Royal Institute of Technology ,73,kth royal institute of technology,201-300,100
+University of Leeds,75,university of leeds,151-200,100
+University of Glasgow,76,the university of glasgow,101-150,95
+Yonsei University,76,yonsei university,201-300,100
+Durham University,78,durham university,301-400,100
+Korea University,79,korea university,201-300,100
+Osaka University,80,osaka university,151-200,100
+"Trinity College Dublin, The University of Dublin",81,trinity college dublin,201-300,90
+University of Southampton,81,university of southampton,151-200,100
+Pennsylvania State University,83,pennsylvania state university - university park,101-150,90
+University of Birmingham,84,university of birmingham,151-200,100
+Lund University,85,lund university,151-200,100
+Universidade de S�o Paulo,85,Universidade de S�o Paulo,101-150,86
+Lomonosov Moscow State University,87,moscow state university,101-150,95
+Ruprecht-Karls-Universit�t Heidelberg,87,Ruprecht-Karls-Universit�t Heidelberg,55,86
+The University of Adelaide,89,the university of adelaide,151-200,100
+University of Technology Sydney,90,university of technology sydney,201-300,100
+Tokyo Institute of Technology (Tokyo Tech),91,tokyo institute of technology,151-200,95
+University of Zurich,91,university of zurich,59,100
+Boston University,93,boston university,101-150,100
+Universidad Nacional Aut�noma de M�xico (UNAM),93,Universidad Nacional Aut�noma de M�xico (UNAM),201-300,86
+Universidad de Buenos Aires (UBA),95,Universidad de Buenos Aires (UBA),201-300,86
+University of St Andrews,95,university of st andrews,301-400,100
+Georgia Institute of Technology,97,georgia institute of technology,151-200,100
+Freie Universitaet Berlin,98,rice university,-,78
+Purdue University,99,purdue university - west lafayette,96,90
+Pohang University of Science And Technology (POSTECH),100,pohang university of science and technology,301-400,95
+University of Nottingham,100,university of nottingham,101-150,100
+University of Wisconsin-Madison,102,university of wisconsin - madison,35,97
+Pontificia Universidad Cat�lica de Chile (UC),103,Pontificia Universidad Cat�lica de Chile (UC),601-700,86
+The University of Sheffield,104,the university of sheffield,151-200,100
+Uppsala University,105,uppsala university,82,100
+RWTH Aachen University,106,rwth aachen university,201-300,100
+University of Copenhagen,107,university of copenhagen,32,100
+Utrecht University,107,utrecht university,52,100
+Aalto University,109,aalto university,301-400,100
+Newcastle University,110,newcastle university,201-300,100
+University of Alberta,111,university of alberta,91,100
+University of Waterloo,112,university of waterloo,151-200,100
+Tohoku University,113,tohoku university,201-300,100
+Western University,114,western university,301-400,100
+University of Helsinki,115,university of helsinki,101-150,100
+University of Southern California,116,university of southern california,58,100
+University of Oslo,117,university of oslo,73,100
+Stockholm University,118,stockholm university,98,100
+"University of California, Davis",118,"university of california, davis",101-150,100
+"KIT, Karlsruhe Institute of Technology",119,karlsruhe institute of technology (kit),301-400,95
+Humboldt-Universit�t zu Berlin,120,Humboldt-Universit�t zu Berlin,-,72
+Technical University of Denmark,121,technical university of denmark,151-200,100
+Lancaster University,122,lancaster university,301-400,100
+Politecnico di Milano,123,polytechnic university of milan,201-300,65
+Eindhoven University of Technology,124,eindhoven university of technology,401-500,100
+University of Basel,124,university of basel,81,100
+Leiden University,126,leiden university,101-150,100
+University of Bern,126,university of bern,101-150,100
+University of Geneva,128,university of geneva,49,100
+Chalmers University of Technology,129,chalmers university of technology,401-500,100
+Macquarie University,130,macquarie university,201-300,100
+University of Vienna,130,university of vienna,101-150,100
+"University of North Carolina, Chapel Hill",132,university of north carolina at chapel hill,31,98
+Sapienza University of Rome,134,sapienza university of rome,101-150,100
+Texas A&M University,134,texas a&m university,151-200,100
+Michigan State University,136,michigan state university,151-200,100
+Universiti Sains Malaysia (USM),137,Universiti Sains Malaysia (USM),601-700,69
+University of Science and Technology of China,137,university of science and technology of china,64,100
+University of Groningen,139,university of groningen,76,100
+RMIT University,140,rmit university,301-400,100
+Nanjing University,141,nanjing university,96,100
+Université de Montréal ,141,université de montréal,151-200,100
+Aarhus University,143,aarhus university,78,100
+King Abdulaziz University (KAU),143,king abdulaziz university,151-200,95
+Queen Mary University of London,145,queen mary university of london,201-300,100
+Rice University,145,rice university,101-150,100
+Sungkyunkwan University(SKKU),145,sungkyunkwan university,151-200,95
+University of Bath,148,university of bath,401-500,100
+Indian Institute of Technology Bombay (IITB),149,Indian Institute of Technology Bombay (IITB),-,86
+Universitat Aut�noma de Barcelona,149,université de montréal,301-400,86
+The Ohio State University,151,the ohio state university - columbus,101-150,95
+Wageningen University & Research,151,wageningen university & research,151-200,100
+The University of Exeter,153,university of exeter,151-200,95
+Alma Mater Studiorum - University of Bologna,154,university of bologna,201-300,90
+Cardiff University,154,cardiff university,151-200,100
+Technische Universität Berlin (TU Berlin),154,tu dresden,201-300,86
+Washington University in St. Louis,154,washington university in st. louis,25,100
+Universiti Putra Malaysia (UPM),158,taif university,201-300,68
+Ghent University,159,ghent university,84,100
+Universidad de Chile,159,université libre de bruxelles (ulb),101-150,86
+Universiti Kebangsaan Malaysia (UKM),159,duke university,34,68
+University of Wollongong,162,university of wollongong,201-300,100
+"University of California, Santa Barbara (UCSB)",163,"university of california, santa barbara",63,95
+Hanyang University,164,hanyang university,201-300,100
+Kyushu University,164,kyushu university,301-400,100
+Universitat de Barcelona,164,federal university of rio de janeiro,501-600,86
+Emory University,166,emory university,101-150,100
+University of York,167,university of york,301-400,100
+University of Florida,168,university of florida,101-150,100
+"University of Maryland, College Park",169,"university of maryland, college park",50,100
+University of Reading,169,the university of reading,301-400,95
+Complutense University of Madrid,171,complutense university of madrid,301-400,100
+University College Dublin,171,university college dublin,301-400,100
+Qatar University,173,qatar university,501-600,100
+"The University of Newcastle, Australia (UON)",173,"the university of newcastle, australia",401-500,95
+University of Cape Town,173,university of cape town,201-300,100
+Erasmus University Rotterdam ,176,erasmus university rotterdam,88,100
+Nagoya University,176,nagoya university,101-150,100
+University of Liverpool,176,university of liverpool,101-150,100
+Arizona State University,179,arizona state university,101-150,100
+King Fahd University of Petroleum & Minerals,180,king fahd university of petroleum & minerals,401-500,100
+Université catholique de Louvain (UCLouvain),180,université paris cité,69,86
+University of Calgary,182,the university of calgary,201-300,95
+Curtin University,183,curtin university,201-300,100
+École Normale Supérieure de Lyon,184,ecole normale superieure - lyon,201-300,92
+Technische Universität Wien,184,rice university,101-150,78
+Tecnológico de Monterrey,184,federal university of rio de janeiro,501-600,86
+University of Gothenburg,187,university of gothenburg,101-150,100
+Universiti Teknologi Malaysia ,188,university of malaya,401-500,73
+McMaster University,189,mcmaster university,98,100
+Queensland University of Technology (QUT),189,queensland university of technology,301-400,95
+Universite libre de Bruxelles,189,université libre de bruxelles (ulb),101-150,90
+Albert-Ludwigs-Universitaet Freiburg,192,university of freiburg,101-150,86
+Ecole des Ponts ParisTech,192,unesp,301-400,54
+Wuhan University,194,wuhan university,101-150,100
+University of Minnesota Twin Cities,195,"university of minnesota, twin cities",44,99
+Hokkaido University,196,hokkaido university,201-300,100
+Indian Institute of Technology Delhi (IITD),197,university of cambridge,4,86
+Universidad de los Andes,198,"university of california, los angeles",13,86
+Universidad Autónoma de Madrid,199,autonomous university of madrid,301-400,73
+Waseda University,199,swansea university,401-500,91
+Queen's University Belfast,202,queen's university belfast,301-400,100
+King Saud University,203,king saud university,101-150,100
+University of Ottawa,203,university of ottawa,201-300,100
+Universität Hamburg,205,university of hamburg,201-300,87
+University of Otago,206,university of otago,401-500,100
+Vrije Universiteit Amsterdam,207,vrije universiteit amsterdam,151-200,100
+University of Aberdeen,208,university of aberdeen,201-300,100
+Queen's University at Kingston,209,queen's university,201-300,90
+University of Twente,210,university of twente,401-500,100
+Chulalongkorn University,211,chulalongkorn university,501-600,100
+Loughborough University,212,yale university,11,86
+Eberhard Karls Universität Tübingen,213,yale university,11,72
+Keio University,214,keio university,301-400,100
+Tel Aviv University,215,tel aviv university,201-300,100
+Tongji University,216,tongji university,151-200,100
+National Yang Ming Chiao Tung University,217,national yang ming chiao tung university,401-500,100
+University of Sussex,218,university of sussex,201-300,100
+Università di Padova,219,université libre de bruxelles (ulb),101-150,86
+Universidade Estadual de Campinas (Unicamp),220,université de montréal,151-200,86
+University of Lausanne,220,university of lausanne,101-150,100
+Radboud University ,222,radboud university nijmegen,101-150,90
+University of Pittsburgh,222,university of pittsburgh,83,100
+University of Rochester,224,university of rochester,201-300,100
+Indian Institute of Science,225,indian institute of science,301-400,100
+American University of Beirut (AUB),226,harvard university,1,86
+Universidad Nacional de Colombia,226,université de montréal,151-200,86
+National Cheng Kung University (NCKU),228,national cheng kung university (ncku),301-400,100
+Friedrich-Alexander-Universität Erlangen-Nürnberg,229,duke university,34,72
+Al-Farabi Kazakh National University,230,harvard university,1,86
+Khalifa University of Science and Technology,230,macau university of science and technology,401-500,91
+University of Göttingen,232,university of goettingen,151-200,96
+Deakin University,233,deakin university,201-300,100
+National Tsing Hua University,233,national tsing hua university,401-500,100
+Heriot-Watt University,235,"university of california, berkeley",5,86
+Université de Paris-Cité,236,université paris cité,69,95
+Dartmouth College,237,dartmouth college,301-400,100
+Universitas Indonesia,237,flinders university,301-400,71
+Massey University,239,"university of california, berkeley",5,86
+Rheinische Friedrich-Wilhelms-Universität Bonn,239,university of bonn,67,86
+Victoria University of Wellington,241,victoria university of wellington,401-500,100
+La Trobe University,242,la trobe university,301-400,100
+Griffith University,243,griffith university,301-400,100
+University of Surrey,244,university of surrey,301-400,100
+University of Massachusetts Amherst,245,university of massachusetts amherst,151-200,100
+Technical University of Darmstadt,246,technical university darmstadt,401-500,95
+Technische Universität Dresden,246,tu dresden,201-300,86
+Charles University,248,charles university in prague,301-400,90
+University of Antwerp,248,university of antwerp,201-300,100
+University of Waikato,250,massachusetts institute of technology (mit),3,86
+The Hebrew University of Jerusalem,251,the hebrew university of jerusalem,86,100
+Politecnico di Torino,252,polytechnic university of milan,201-300,58
+University of Porto,253,university of porto,201-300,100
+University of Macau,254,university of macau,301-400,100
+Case Western Reserve University,255,case western reserve university,151-200,100
+Harbin Institute of Technology,256,harbin institute of technology,101-150,100
+Maastricht University ,256,maastricht university,201-300,100
+University of Canterbury | Te Whare W?nanga o Waitaha,256,university of canterbury,401-500,90
+Vrije Universiteit Brussel (VUB),259,vrije universiteit brussel (vub),301-400,100
+University of Virginia,260,university of virginia,201-300,100
+Vanderbilt University,261,vanderbilt university,66,100
+University of Warsaw ,262,university of warsaw,401-500,100
+Gadjah Mada University,263,"university of california, berkeley",5,86
+University of Colorado Boulder,264,university of colorado at boulder,57,95
+University of Witwatersrand,264,university of the witwatersrand,301-400,95
+Ulsan National Institute of Science and Technology (UNIST),266,ulsan national institute of science and technology,201-300,95
+University of Lisbon ,266,university of lisbon,201-300,100
+Linköping University,268,linkoping university,301-400,97
+"University of California, Irvine",268,"university of california, irvine",65,100
+University of Cologne,268,university of cologne,151-200,100
+Indian Institute of Technology Kharagpur (IIT-KGP),271,university of cambridge,4,86
+Beijing Normal University ,272,beijing normal university,151-200,100
+University of Leicester,272,university of leicester,301-400,100
+North Carolina State University,274,north carolina state university - raleigh,201-300,95
+Huazhong University of Science and Technology,275,huazhong university of science and technology,91,100
+University of Milan,276,university of milan,151-200,100
+University of Strathclyde,276,university of strathclyde,501-600,100
+Indian Institute of Technology Kanpur (IITK),278,university of cambridge,4,86
+University of Miami,278,university of miami,301-400,100
+University of Navarra,280,university of navarra,501-600,100
+Bandung Institute of Technology (ITB),281,university of cambridge,4,86
+University of Bergen,281,university of bergen,301-400,100
+Stellenbosch University,283,stellenbosch university,401-500,100
+Taylor's University,284,"university of california, berkeley",5,86
+Indian Institute of Technology Madras (IITM),285,university of cambridge,4,86
+Swinburne University of Technology,285,swinburne university of technology,201-300,100
+The University of Arizona,285,university of arizona,151-200,95
+Tianjin University,285,tianjin university,101-150,100
+University of Galway,289,university of malaya,401-500,90
+United Arab Emirates University,290,harvard university,1,86
+Xi’an Jiaotong University,291,xi'an jiaotong university,101-150,100
+Norwegian University of Science And Technology,292,norwegian university of science and technology - ntnu,101-150,95
+University College Cork,292,university college cork,301-400,100
+Université Grenoble Alpes,294,université grenoble alpes,,100
+Hong Kong Baptist University,295,harvard university,1,86
+University of East Anglia (UEA),295,university of east anglia,201-300,95
+Georgetown University,297,georgetown university,401-500,100
+Dalhousie University,298,dalhousie university,301-400,100
+Rutgers University–New Brunswick,299,harvard university,1,86
+UCSI University,300,rush university,501-600,87
+Southern University of Science and Technology,301,southern university of science and technology,101-150,100
+Goethe-University Frankfurt am Main,302,goethe university frankfurt,151-200,95
+Virginia Polytechnic Institute and State University,302,virginia polytechnic institute and state university,201-300,100
+Jagiellonian University,304,jagiellonian university,401-500,100
+University of Notre Dame,304,university of notre dame,401-500,100
+University of Johannesburg,306,university of johannesburg,501-600,100
+Daegu Gyeongbuk Institute of Science and Technology (DGIST),307,university of cambridge,4,86
+Swansea University,307,swansea university,401-500,100
+Universiti Teknologi PETRONAS (UTP),307,university of utah,101-150,67
+University of Tasmania,307,university of tasmania,201-300,100
+Hamad Bin Khalifa University,310,harvard university,1,86
+Universitat Pompeu Fabra (Barcelona),310,university of barcelona,201-300,86
+Universität Stuttgart,312,university of stuttgart,301-400,88
+Indiana University Bloomington,313,indiana university bloomington,151-200,100
+University of Oulu,313,university of oulu,401-500,100
+Quaid-i-Azam University,315,yale university,11,86
+Saint Petersburg State University,315,saint petersburg state university,401-500,100
+University of Turku,315,university of turku,301-400,100
+Simon Fraser University,318,simon fraser university,301-400,100
+Bauman Moscow State Technical University,319,harvard university,1,86
+Sciences Po ,319,swedish university of agricultural sciences,301-400,86
+Universidad Carlos III de Madrid (UC3M),319,université de montréal,151-200,86
+University of Victoria (UVic),322,university of victoria,301-400,95
+Sun Yat-sen University,323,sun yat-sen university,73,100
+University of Illinois at Chicago (UIC),323,university of illinois at chicago,301-400,95
+University of Pretoria,323,university of pretoria,401-500,100
+University of South Australia,326,university of south australia,501-600,100
+University of Southern Denmark (SDU),326,university of southern denmark,301-400,95
+"City, University of London",328,massachusetts institute of technology (mit),3,86
+Gwangju Institute of Science and Technology (GIST),328,university of cambridge,4,86
+Université Paris 1 Panthéon-Sorbonne ,328,sorbonne university,46,86
+USI - Università della Svizzera italiana,328,università della svizzera italiana,501-600,95
+Kyung Hee University,332,kyung hee university,401-500,100
+"University of California, Santa Cruz",332,"university of california, santa cruz",151-200,100
+Sharif University of Technology,334,wuhan university of technology,201-300,89
+University of Naples - Federico II,335,university of naples federico ii,201-300,97
+Aalborg University,336,aalborg university,301-400,100
+Middle East Technical University,336,harvard university,1,86
+Pontificia Universidad Católica del Perú,336,rice university,101-150,66
+University of Kent,336,university of kent,401-500,100
+Beijing Institute of Technology,340,beijing institute of technology,101-150,100
+George Washington University,340,the george washington university,201-300,95
+RUDN University,342,fudan university,56,90
+Brunel University London,343,yale university,11,86
+University of Aveiro,344,university of aveiro,401-500,100
+Airlangga University,345,"university of california, berkeley",5,86
+University of Saskatchewan,345,university of saskatchewan,301-400,100
+National Technical University of Athens,347,harvard university,1,86
+Pontificia Universidad Javeriana,347,rice university,101-150,66
+Universidad Politécnica de Madrid (UPM),349,université de montréal,151-200,86
+University of Pisa,349,university of pisa,151-200,100
+Lappeenranta-Lahti University of Technology LUT,351,harvard university,1,86
+University of Coimbra,351,university of coimbra,401-500,100
+York University,353,york university,401-500,100
+Universitat Politècnica de Catalunya · BarcelonaTech (UPC),354,université libre de bruxelles (ulb),101-150,86
+L.N. Gumilyov Eurasian National University (ENU),355,harvard university,1,86
+Sichuan University,355,sichuan university,101-150,100
+University of Tsukuba,355,university of tsukuba,201-300,100
+University of Florence,358,university of florence,301-400,100
+University of Tartu,358,university of turku,301-400,89
+Shandong University,360,shandong university,101-150,100
+University of Tehran,360,university of tehran,401-500,100
+Lincoln University ,362,"university of california, berkeley",5,86
+Universität Innsbruck,362,university of innsbruck,301-400,88
+American University of Sharjah,364,harvard university,1,86
+Indian Institute of Technology Guwahati (IITG),364,university of cambridge,4,86
+University of Turin,364,university of turin,201-300,100
+National University of Sciences And Technology (NUST) Islamabad,367,harvard university,1,86
+University of Cyprus (UCY),368,massachusetts institute of technology (mit),3,86
+Indian Institute of Technology Roorkee (IITR),369,university of cambridge,4,86
+Yeshiva University,369,"university of california, berkeley",5,86
+Cairo University,371,cairo university,301-400,100
+Tilburg University,371,"university of california, berkeley",5,86
+Universidade Federal do Rio de Janeiro,371,université de montréal,151-200,86
+"Birkbeck, University of London",374,harvard university,1,86
+ Western Sydney University,375,western sydney university,301-400,100
+Amirkabir University of Technology,375,harvard university,1,86
+Northeastern University,375,northwestern university,30,96
+Ruhr-Universität Bochum,375,university of bochum,301-400,77
+Tufts University,379,tufts university,151-200,100
+Flinders University,380,flinders university,301-400,100
+University of Luxembourg,381,massachusetts institute of technology (mit),3,86
+Mahidol University,382,"university of california, berkeley",5,86
+Université de Montpellier,382,university of montpellier,151-200,90
+Nankai University,384,nankai university,151-200,100
+Westfälische Wilhelms-Universität Münster ,384,university of muenster,201-300,74
+University of Hawai?i at M?noa,386,university of hawaii at manoa,301-400,95
+Aix-Marseille University,387,aix marseille university,151-200,100
+Belarusian State University,387,harvard university,1,86
+Concordia University,387,concordia university,501-600,100
+National Taiwan University of Science and Technology (Taiwan Tech),387,national taiwan university,201-300,90
+Universiti Brunei Darussalam (UBD),387,lund university,151-200,68
+Institut National des Sciences Appliquées de Lyon (INSA),392,national university of singapore,71,86
+South China University of Technology,392,south china university of technology,101-150,100
+Technion - Israel Institute of Technology,392,technion-israel institute of technology,79,98
+Xiamen University,392,xiamen university,151-200,100
+Justus-Liebig-University Giessen,396,harvard university,1,86
+Kazan (Volga region) Federal University,396,harvard university,1,86
+"Stony Brook University, State University of New York",396,stony brook university,301-400,90
+HSE University,399,ghent university,84,87
+Iowa State University,400,iowa state university,401-500,100
+Masaryk University,400,masaryk university,401-500,100
+Universidade Nova de Lisboa,400,university of lisbon,201-300,68
+University of Granada,403,university of granada,201-300,100
+Istanbul Technical University,404,harvard university,1,86
+"University of California, Riverside",404,"university of california, riverside",201-300,100
+University of the Philippines,404,harvard university,1,86
+Auckland University of Technology (AUT),407,the university of auckland,201-300,87
+University of Delhi,407,university of guelph,501-600,87
+Colorado State University,409,colorado state university,301-400,100
+Universidad de Santiago de Chile (USACH),410,université de montréal,151-200,86
+University of Kansas,410,university of kansas,301-400,100
+University of Southern Queensland ,410,the university of queensland,51,87
+Oxford Brookes University,413,university of oxford,7,87
+Royal Holloway University of London,413,harvard university,1,86
+James Cook University,415,james cook university,301-400,100
+Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),415,moscow institute of physics and technology,501-600,90
+The American University in Cairo,415,harvard university,1,86
+Tomsk State University,418,"university of california, berkeley",5,86
+UNESP,419,unesp,301-400,100
+Washington State University,419,washington state university,401-500,100
+Graz University of Technology,421,wuhan university of technology,201-300,88
+Novosibirsk State University,421,harvard university,1,86
+Université de Liège,421,université libre de bruxelles (ulb),101-150,86
+Université de Strasbourg,421,university of strasbourg,151-200,89
+University of Canberra ,421,university of alberta,91,88
+University of Limerick,426,massachusetts institute of technology (mit),3,86
+Anna University,427,nankai university,151-200,88
+IE University,428,rice university,101-150,93
+Singapore University of Technology and Design,429,harvard university,1,86
+University of Trento,429,university of trento,401-500,100
+Koç University,431,keio university,301-400,93
+Murdoch University,431,murdoch university,401-500,100
+National Taipei University of Technology,431,harvard university,1,86
+National Taiwan Normal University,431,national taiwan university,201-300,95
+University of Stirling,431,university of turin,201-300,88
+Dublin City University,436,"university of california, berkeley",5,86
+Sejong University ,436,sejong university,401-500,100
+Tampere University,436,tampere university,501-600,100
+University of Science and Technology Beijing,436,university of science and technology beijing,201-300,100
+University of St.Gallen (HSG),436,harvard university,1,86
+Julius-Maximilians-Universität Würzburg,440,jilin university,101-150,79
+ University of Dundee,441,the university of dundee,401-500,95
+Université Laval,441,laval university,301-400,92
+University of Utah,441,university of utah,101-150,100
+National and Kapodistrian University of Athens,444,national and kapodistrian university of athens,301-400,100
+University of Connecticut,444,university of connecticut,301-400,100
+Aston University,446,boston university,101-150,91
+Johannes Kepler University Linz,446,harvard university,1,86
+"The University of Tennessee, Knoxville",446,university of tennessee - knoxville,201-300,95
+Toyota Technological Institute in Japan,446,karolinska institute,37,86
+University of Jyväskylä,446,massachusetts institute of technology (mit),3,86
+Iran University of Science and Technology,451,pohang university of science and technology,301-400,93
+Central South University,452,central south university,95,100
+Université Claude Bernard Lyon 1,452,claude bernard university lyon 1,201-300,93
+Czech Technical University in Prague,454,harvard university,1,86
+Indian Institute of Technology Indore (IIT Indore),454,university of cambridge,4,86
+Southeast University,454,southeast university,101-150,100
+Sultan Qaboos University,454,yale university,11,86
+Universität Mannheim,454,anhui university,501-600,76
+"Essex, University of",459,university of essex,401-500,95
+Universität Potsdam,460,university of potsdam,401-500,87
+Florida State University,461,florida state university,201-300,100
+National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),461,harvard university,1,86
+Universität Jena,461,university of jena,401-500,85
+Johannes Gutenberg Universität Mainz,464,university of mainz,201-300,86
+Colorado School of Mines,465,massachusetts institute of technology (mit),3,86
+Umea University,465,duke university,34,87
+University of Bordeaux,465,university of bordeaux,201-300,100
+University of Sharjah,465,massachusetts institute of technology (mit),3,86
+Ben-Gurion University of The Negev,469,ben-gurion university of the negev,501-600,100
+Illinois Institute of Technology,469,university of oxford,7,86
+Università degli Studi di Pavia,469,université paris cité,69,86
+Hiroshima University,472,hiroshima university,401-500,100
+Beihang University (former BUAA),473,beihang university,151-200,90
+Ural Federal University - UrFU,473,harvard university,1,86
+Vilnius University ,473,vilnius university,501-600,100
+Kobe University,476,kobe university,501-600,100
+Universitat Politècnica de València,476,université de montréal,151-200,86
+Universität Konstanz,478,university of konstanz,501-600,88
+Universität Leipzig,479,university of leipzig,201-300,87
+Missouri University of Science and Technology,480,southern university of science and technology,101-150,91
+Bangor University,481,"university of california, berkeley",5,86
+Hitotsubashi University,481,yale university,11,86
+Leibniz University Hannover,481,leibniz university hannover,501-600,100
+Satbayev University,481,"university of california, berkeley",5,86
+University of Milano-Bicocca ,481,university of milano-bicocca,301-400,100
+Universitat de Valencia,485,federal university of rio de janeiro,501-600,86
+University of Electronic Science and Technology of China,486,university of electronic science and technology of china,101-150,100
+University of Guelph,486,university of guelph,501-600,100
+IPB University (a.k.a. Bogor Agricultural University),489,harvard university,1,86
+"University of Rome ""Tor Vergata""",489,university of roma - tor vergata,501-600,95
+Dalian University of Technology,491,dalian university of technology,201-300,100
+University at Buffalo SUNY,491,yale university,11,86
+University of Iowa,491,university of iowa,201-300,100
+Chung-Ang University (CAU),494,yale university,11,86
+Hunan University ,494,hunan university,151-200,100
+Rensselaer Polytechnic Institute,494,rensselaer polytechnic institute,401-500,100
+Universidad de Sevilla,494,université libre de bruxelles (ulb),101-150,86
+Ewha Womans University,498,"university of california, berkeley",5,86
+Ulster University,498,"university of california, berkeley",5,86
+University of Delaware,498,university of delaware,201-300,100
+University of Jordan,498,university of florida,101-150,88
+Bilkent University,502,"university of california, berkeley",5,86
+Jilin University,502,jilin university,101-150,100
+University of Portsmouth,502,university of porto,201-300,88
+Macau University of Science and Technology,505,macau university of science and technology,401-500,100
+National Sun Yat-sen University,505,sun yat-sen university,73,95
+Oregon State University,505,oregon state university,201-300,100
+Università Cattolica del Sacro Cuore,505,université paris cité,69,86
+Sogang University,509,sejong university,401-500,88
+University of Bayreuth,509,university of bayreuth,501-600,100
+East China Normal University,511,east china normal university,201-300,100
+SOAS University of London ,511,massachusetts institute of technology (mit),3,86
+Université Paul Sabatier Toulouse III,511,paul sabatier university (toulouse 3),301-400,88
+Bo?aziçi University,514,"university of california, berkeley",5,86
+Duy Tan University,514,"university of california, berkeley",5,86
+Pontificia Universidad Católica Argentina,514,rice university,101-150,66
+Shanghai University,514,shanghai university,201-300,100
+The University of Georgia,514,the university of georgia,301-400,100
+Universität Bremen,514,university of aberdeen,201-300,77
+Kyungpook National University,520,kyungpook national university,401-500,100
+Universidad Austral,520,université de montréal,151-200,72
+University of Texas Dallas,520,the university of texas at dallas,501-600,95
+Universidad de Zaragoza,523,federal university of rio de janeiro,501-600,86
+University of Hull,523,university of ulm,401-500,91
+Universiti Teknologi Brunei,525,university of technology sydney,201-300,69
+MGIMO University,526,"university of california, berkeley",5,86
+Sabanci University,526,"university of california, berkeley",5,86
+University of Madras,526,university of padua,151-200,87
+Edith Cowan University ,529,"university of california, berkeley",5,86
+Aristotle University of Thessaloniki,530,aristotle university of thessaloniki,501-600,100
+Christian-Albrechts-University zu Kiel,530,harvard university,1,86
+Universidad de Palermo (UP),530,university of palermo,501-600,72
+University of Genoa,530,university of genoa,401-500,100
+China Agricultural University ,534,china agricultural university,201-300,100
+Peter the Great St. Petersburg Polytechnic University,534,harvard university,1,86
+University of Crete,534,university of exeter,151-200,87
+University of Salamanca,534,university of salamanca,501-600,100
+Universidad de Alcalá,538,université libre de bruxelles (ulb),101-150,86
+Universiti Utara Malaysia (UUM),538,laval university,301-400,69
+Lahore University of Management Sciences (LUMS),540,harvard university,1,86
+Universidad Nacional de La Plata (UNLP),540,université de montréal,151-200,86
+ITMO University,542,keio university,301-400,87
+University Ulm,542,university of ulm,401-500,95
+Universidad de Costa Rica,544,université de montréal,151-200,71
+Bar-Ilan University,545,bar-ilan university,401-500,100
+City University of New York,545,new york university,28,95
+Singapore Management University,545,harvard university,1,86
+Lehigh University,548,"university of california, berkeley",5,86
+Northumbria University at Newcastle,548,harvard university,1,86
+University of Eastern Finland,548,university of eastern finland,501-600,100
+Ajman University,551,jinan university,201-300,88
+Canadian University Dubai,551,yale university,11,86
+Hasselt University ,551,"university of california, berkeley",5,86
+University of Nebraska - Lincoln,551,university of nebraska - lincoln,201-300,100
+Universiti Teknologi MARA - UiTM,555,rmit university,301-400,68
+Florida International University,556,florida international university,501-600,100
+INTI International University,556,harvard university,1,86
+Politecnico di Bari,556,the hong kong polytechnic university,151-200,57
+Renmin (People's) University of China,556,renmin university of china,401-500,95
+"University of Chemistry and Technology, Prague",556,harvard university,1,86
+Chongqing University,561,chongqing university,201-300,100
+University of Plymouth,561,massachusetts institute of technology (mit),3,86
+Ateneo de Manila University,563,harvard university,1,86
+Université de Fribourg,563,university of fribourg,501-600,88
+University of South Florida,563,university of south florida,301-400,100
+Bond University,567,brown university,98,90
+National Chengchi University,567,harvard university,1,86
+Universidad Adolfo Ibáñez,567,university of bern,101-150,68
+University of Huddersfield,567,massachusetts institute of technology (mit),3,86
+Chiang Mai University,571,chang'an university,501-600,90
+Coventry University,571,"university of california, berkeley",5,86
+Indian Institute of Technology (BHU) Varanasi,571,university of cambridge,4,86
+Warsaw University of Technology,571,wuhan university of technology,201-300,89
+HUFS - Hankuk (Korea) University of Foreign Studies ,575,harvard university,1,86
+University of South Carolina,575,university of south carolina - columbia,401-500,95
+Lebanese University,577,"university of california, berkeley",5,86
+Taipei Medical University (TMU),577,harvard university,1,86
+University of Tromsø The Arctic University of Norway,577,harvard university,1,86
+Abu Dhabi University,580,"university of california, berkeley",5,86
+University of Klagenfurt,580,massachusetts institute of technology (mit),3,86
+Applied Science University - Bahrain,582,harvard university,1,86
+Universidad Católica Andres Bello,582,university of st andrews,301-400,65
+Universidad Pontificia Comillas,582,university of milan,151-200,64
+National Research Tomsk Polytechnic University,586,harvard university,1,86
+Sunway University,586,"university of california, berkeley",5,86
+"University of Missouri, Columbia",586,university of missouri - columbia,201-300,98
+Central Queensland University (CQUniversity Australia),590,harvard university,1,86
+Manchester Metropolitan University (MMU),590,harvard university,1,86
+Prince Mohammad Bin Fahd university,590,harvard university,1,86
+"Goldsmiths, University of London",593,harvard university,1,86
+University of Central Florida,593,university of central florida,301-400,100
+Imam Abdulrahman Bin Faisal University (IAU) (formerly UNIVERSITY OF DAMMAM),595,harvard university,1,86
+Nottingham Trent University,595,university of nottingham,101-150,88
+Pontifícia Universidade Católica do Rio de Janeiro,595,université de montréal,151-200,86
+Shenzhen University,595,shenzhen university,151-200,100
+Università Vita-Salute San Raffaele,595,vita-salute san raffaele university,401-500,94
+Nanjing University of Science and Technology,600,nanjing university of science and technology,301-400,100
+Thammasat University,600,"university of california, berkeley",5,86
+Tulane University,600,tulane university,501-600,100
+Universität des Saarlandes,600,saarland university,501-600,78
