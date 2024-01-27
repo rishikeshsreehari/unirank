@@ -1,4 +1,4 @@
-University,QS Ranking,THE,Shanghai Ranking
+ï»¿University,QS Ranking,THE,Shanghai Ranking
 Massachusetts Institute of Technology (MIT) ,1,1,3
 University of Cambridge,2,2,4
 University of Oxford,3,3,7
@@ -22,7 +22,7 @@ The University of Sydney,19,19,73
 University of Toronto,21,21,24
 The University of Edinburgh,22,22,38
 Columbia University,23,23,8
-Université PSL,24,24,41
+UniversitÃ© PSL,24,24,41
 Tsinghua University,25,25,22
 The University of Hong Kong,26,26,88
 "Nanyang Technological University, Singapore (NTU)",26,26,93
@@ -52,7 +52,7 @@ Fudan University,50,50,56
 Shanghai Jiao Tong University,51,51,46
 Carnegie Mellon University,52,52,101-150
 University of Amsterdam,53,53,101-150
-Ludwig-Maximilians-Universität München,54,54,N/A
+Ludwig-Maximilians-UniversitÃ¤t MÃ¼nchen,54,54,N/A
 University of Bristol,55,55,88
 KAIST - Korea Advanced Institute of Science & Technology,56,56,201-300
 Duke University,57,57,34
@@ -69,7 +69,7 @@ The University of Warwick,67,67,101-150
 The University of Auckland,68,68,201-300
 National Taiwan University (NTU),69,69,201-300
 City University of Hong Kong,70,70,101-150
-Université Paris-Saclay,71,71,15
+UniversitÃ© Paris-Saclay,71,71,15
 The University of Western Australia,72,72,101-150
 Brown University,73,73,98
 KTH Royal Institute of Technology ,73,73,201-300
@@ -83,16 +83,16 @@ University of Southampton,81,81,151-200
 "Trinity College Dublin, The University of Dublin",81,81,201-300
 Pennsylvania State University,83,83,101-150
 University of Birmingham,84,84,151-200
-Universidade de São Paulo,85,85,101-150
+Universidade de SÃ£o Paulo,85,85,101-150
 Lund University,85,85,151-200
-Ruprecht-Karls-Universität Heidelberg,87,87,55
+Ruprecht-Karls-UniversitÃ¤t Heidelberg,87,87,55
 Lomonosov Moscow State University,87,87,101-150
 The University of Adelaide,89,89,151-200
 University of Technology Sydney,90,90,201-300
 University of Zurich,91,91,59
 Tokyo Institute of Technology (Tokyo Tech),91,91,151-200
 Boston University,93,93,101-150
-Universidad Nacional Autónoma de México (UNAM),93,93,201-300
+Universidad Nacional AutÃ³noma de MÃ©xico (UNAM),93,93,201-300
 Universidad de Buenos Aires (UBA),95,95,201-300
 University of St Andrews,95,95,301-400
 Georgia Institute of Technology,97,97,151-200
@@ -101,7 +101,7 @@ Purdue University,99,99,96
 University of Nottingham,100,100,101-150
 Pohang University of Science And Technology (POSTECH),100,100,301-400
 University of Wisconsin-Madison,102,102,35
-Pontificia Universidad Católica de Chile (UC),103,103,601-700
+Pontificia Universidad CatÃ³lica de Chile (UC),103,103,601-700
 The University of Sheffield,104,104,151-200
 Uppsala University,105,105,82
 RWTH Aachen University,106,106,201-300
@@ -119,7 +119,7 @@ University of Oslo,117,117,73
 Stockholm University,118,118,98
 "University of California, Davis",118,118,101-150
 "KIT, Karlsruhe Institute of Technology",119,119,301-400
-Humboldt-Universität zu Berlin,120,120,N/A
+Humboldt-UniversitÃ¤t zu Berlin,120,120,N/A
 Technical University of Denmark,121,121,151-200
 Lancaster University,122,122,301-400
 Politecnico di Milano,123,123,201-300
@@ -140,14 +140,14 @@ Universiti Sains Malaysia (USM),137,137,601-700
 University of Groningen,139,139,76
 RMIT University,140,140,301-400
 Nanjing University,141,141,96
-UniversitÃ© de MontrÃ©al ,141,141,151-200
+UniversitÃƒÂ© de MontrÃƒÂ©al ,141,141,151-200
 Aarhus University,143,143,78
 King Abdulaziz University (KAU),143,143,151-200
 Rice University,145,145,101-150
 Sungkyunkwan University(SKKU),145,145,151-200
 Queen Mary University of London,145,145,201-300
 University of Bath,148,148,401-500
-Universitat Autònoma de Barcelona,149,149,301-400
+Universitat AutÃ²noma de Barcelona,149,149,301-400
 Indian Institute of Technology Bombay (IITB),149,149,N/A
 The Ohio State University,151,151,101-150
 Wageningen University & Research,151,151,151-200
@@ -155,7 +155,7 @@ The University of Exeter,153,153,151-200
 Washington University in St. Louis,154,154,25
 Cardiff University,154,154,151-200
 Alma Mater Studiorum - University of Bologna,154,154,201-300
-Technische Universität Berlin (TU Berlin),154,154,201-300
+Technische UniversitÃ¤t Berlin (TU Berlin),154,154,201-300
 Universiti Putra Malaysia (UPM),158,158,801-900
 Ghent University,159,159,84
 Universidad de Chile,159,159,401-500
@@ -179,13 +179,13 @@ Erasmus University Rotterdam ,176,176,88
 Nagoya University,176,176,101-150
 University of Liverpool,176,176,101-150
 Arizona State University,179,179,101-150
-Université catholique de Louvain (UCLouvain),180,180,201-300
+UniversitÃ© catholique de Louvain (UCLouvain),180,180,201-300
 King Fahd University of Petroleum & Minerals,180,180,401-500
 University of Calgary,182,182,201-300
 Curtin University,183,183,201-300
-École Normale Supérieure de Lyon,184,184,201-300
-Technische Universität Wien,184,184,301-400
-Tecnológico de Monterrey,184,184,N/A
+Ã‰cole Normale SupÃ©rieure de Lyon,184,184,201-300
+Technische UniversitÃ¤t Wien,184,184,301-400
+TecnolÃ³gico de Monterrey,184,184,N/A
 University of Gothenburg,187,187,101-150
 Universiti Teknologi Malaysia ,188,188,701-800
 McMaster University,189,189,98
@@ -198,12 +198,12 @@ University of Minnesota Twin Cities,195,195,44
 Hokkaido University,196,196,201-300
 Indian Institute of Technology Delhi (IITD),197,197,601-700
 Universidad de los Andes,198,198,N/A
-Universidad Autónoma de Madrid,199,199,301-400
+Universidad AutÃ³noma de Madrid,199,199,301-400
 Waseda University,199,199,701-800
 Queen's University Belfast,202,202,301-400
 King Saud University,203,203,101-150
 University of Ottawa,203,203,201-300
-Universität Hamburg,205,205,201-300
+UniversitÃ¤t Hamburg,205,205,201-300
 University of Otago,206,206,401-500
 Vrije Universiteit Amsterdam,207,207,151-200
 University of Aberdeen,208,208,201-300
@@ -211,13 +211,13 @@ Queen's University at Kingston,209,209,201-300
 University of Twente,210,210,401-500
 Chulalongkorn University,211,211,501-600
 Loughborough University,212,212,601-700
-Eberhard Karls Universität Tübingen,213,213,151-200
+Eberhard Karls UniversitÃ¤t TÃ¼bingen,213,213,151-200
 Keio University,214,214,301-400
 Tel Aviv University,215,215,201-300
 Tongji University,216,216,151-200
 National Yang Ming Chiao Tung University,217,217,401-500
 University of Sussex,218,218,201-300
-Università di Padova,219,219,151-200
+UniversitÃ Â di Padova,219,219,151-200
 University of Lausanne,220,220,101-150
 Universidade Estadual de Campinas (Unicamp),220,220,401-500
 University of Pittsburgh,222,222,83
@@ -227,24 +227,24 @@ Indian Institute of Science,225,225,301-400
 American University of Beirut (AUB),226,226,701-800
 Universidad Nacional de Colombia,226,226,901-1000
 National Cheng Kung University (NCKU),228,228,301-400
-Friedrich-Alexander-Universität Erlangen-Nürnberg,229,229,201-300
+Friedrich-Alexander-UniversitÃ¤t Erlangen-NÃ¼rnberg,229,229,201-300
 Khalifa University of Science and Technology,230,230,801-900
 Al-Farabi Kazakh National University,230,230,N/A
-University of Göttingen,232,232,151-200
+University of GÃ¶ttingen,232,232,151-200
 Deakin University,233,233,201-300
 National Tsing Hua University,233,233,401-500
 Heriot-Watt University,235,235,901-1000
-Université de Paris-Cité,236,236,69
+UniversitÃ© de Paris-CitÃ©,236,236,69
 Dartmouth College,237,237,301-400
 Universitas Indonesia,237,237,N/A
-Rheinische Friedrich-Wilhelms-Universität Bonn,239,239,67
+Rheinische Friedrich-Wilhelms-UniversitÃ¤t Bonn,239,239,67
 Massey University,239,239,701-800
 Victoria University of Wellington,241,241,401-500
 La Trobe University,242,242,301-400
 Griffith University,243,243,301-400
 University of Surrey,244,244,301-400
 University of Massachusetts Amherst,245,245,151-200
-Technische Universität Dresden,246,246,201-300
+Technische UniversitÃ¤t Dresden,246,246,201-300
 Technical University of Darmstadt,246,246,401-500
 University of Antwerp,248,248,201-300
 Charles University,248,248,301-400
@@ -268,7 +268,7 @@ Ulsan National Institute of Science and Technology (UNIST),266,266,201-300
 University of Lisbon ,266,266,201-300
 "University of California, Irvine",268,268,65
 University of Cologne,268,268,151-200
-Linköping University,268,268,301-400
+LinkÃ¶ping University,268,268,301-400
 Indian Institute of Technology Kharagpur (IIT-KGP),271,271,601-700
 Beijing Normal University ,272,272,151-200
 University of Leicester,272,272,301-400
@@ -289,13 +289,13 @@ Swinburne University of Technology,285,285,201-300
 Indian Institute of Technology Madras (IITM),285,285,701-800
 University of Galway,289,289,501-600
 United Arab Emirates University,290,290,801-900
-Xiâ€™an Jiaotong University,291,291,101-150
+XiÃ¢â‚¬â„¢an Jiaotong University,291,291,101-150
 Norwegian University of Science And Technology,292,292,101-150
 University College Cork,292,292,301-400
-UniversitÃ© Grenoble Alpes,294,294,N/A
+UniversitÃƒÂ© Grenoble Alpes,294,294,N/A
 University of East Anglia (UEA),295,295,201-300
 Hong Kong Baptist University,295,295,601-700
 Georgetown University,297,297,401-500
 Dalhousie University,298,298,301-400
-Rutgers University–New Brunswick,299,299,101-150
+Rutgers Universityâ€“New Brunswick,299,299,101-150
 UCSI University,300,300,N/A
