@@ -107,3 +107,36 @@ header {
 * {
     cursor: default;
 }
+
+#header-icons {
+    display: flex; /* Flex container */
+    align-items: center; /* Align items vertically */
+}
+
+#header-icons > a, #header-icons > div {
+    margin-right: 10px; /* Spacing between icons */
+}
+
+
+#about-link {
+    text-decoration: none; /* Removes underline */
+    color: #000000; /* Text color */
+    font-weight: bold; /* Makes text bold */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#about-link:hover {
+    background-color: #000000; /* Hover background color */
+    color: #ffffff; /* Hover text color */
+}
+#site-title {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from the parent element */
+    /* You can set a specific color if you prefer, e.g., color: #000000; */
+}
+
+#site-title h1 {
+    margin: 0; /* Removes default margin from the h1 tag if needed */
+}
