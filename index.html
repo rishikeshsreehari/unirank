@@ -25,335 +25,341 @@
         </div>
     </header>
     <p>Find top 300 university rankings in one place at unirank.one. It's easy and quick to compare schools without any hassle.</p>
+    <p>The three longest established and most influential global rankings are those produced by Quacquarelli Symonds (QS), Times Higher Education (THE) and Shanghai Ranking Consultancy (the Academic Ranking of World Universities; ARWU).</p>
 </body>
 </html>
 <!-- Search Box -->
 <input type="text" id="searchbox" placeholder="Search by university name...">
 <br>
+
 <table id="universitiesTable">
     <thead>
         <tr>
             <th>University</th>
-            <th data-sort="qs">QS(2024)</th>
-            <th data-sort="times">THE(2024)</th>
-            <th data-sort="shanghai">ARWU(2023)</th>
+            <th data-sort="qs">QS World(2024)<a href="#qs-ranking-ref" style="text-decoration:none"><sup>[1]</sup></a></th>
+            <th data-sort="times">THE World(2024)<a href="#the-ranking-ref" style="text-decoration:none"><sup>[2]</sup></a></th>
+            <th data-sort="shanghai">ARWU World(2023)<a href="#arwu-ranking-ref" style="text-decoration:none"><sup>[3]</sup></a></th>
         </tr>
     </thead>
     <tbody>
     
         <!-- Placeholder for dynamic table -->
-<tr><td>Massachusetts Institute of Technology (MIT) </td><td>1</td><td>1</td><td>3</td></tr>
-<tr><td>University of Cambridge</td><td>2</td><td>2</td><td>4</td></tr>
-<tr><td>University of Oxford</td><td>3</td><td>3</td><td>7</td></tr>
+<tr><td>Massachusetts Institute of Technology (MIT) </td><td>1</td><td>3</td><td>3</td></tr>
+<tr><td>University of Cambridge</td><td>2</td><td>5</td><td>4</td></tr>
+<tr><td>University of Oxford</td><td>3</td><td>1</td><td>7</td></tr>
 <tr><td>Harvard University</td><td>4</td><td>4</td><td>1</td></tr>
-<tr><td>Stanford University</td><td>5</td><td>5</td><td>2</td></tr>
-<tr><td>Imperial College London</td><td>6</td><td>6</td><td>23</td></tr>
-<tr><td>ETH Zurich - Swiss Federal Institute of Technology</td><td>7</td><td>7</td><td>20</td></tr>
-<tr><td>National University of Singapore (NUS)</td><td>8</td><td>8</td><td>71</td></tr>
-<tr><td>UCL</td><td>9</td><td>9</td><td>17</td></tr>
-<tr><td>University of California, Berkeley (UCB)</td><td>10</td><td>10</td><td>5</td></tr>
-<tr><td>University of Chicago</td><td>11</td><td>11</td><td>10</td></tr>
-<tr><td>University of Pennsylvania</td><td>12</td><td>12</td><td>14</td></tr>
-<tr><td>Cornell University</td><td>13</td><td>13</td><td>12</td></tr>
-<tr><td>The University of Melbourne</td><td>14</td><td>14</td><td>35</td></tr>
-<tr><td>California Institute of Technology (Caltech)</td><td>15</td><td>15</td><td>9</td></tr>
-<tr><td>Yale University</td><td>16</td><td>16</td><td>11</td></tr>
-<tr><td>Princeton University</td><td>17</td><td>17</td><td>6</td></tr>
-<tr><td>Peking University</td><td>17</td><td>17</td><td>29</td></tr>
-<tr><td>The University of New South Wales (UNSW Sydney)</td><td>19</td><td>19</td><td>72</td></tr>
-<tr><td>The University of Sydney</td><td>19</td><td>19</td><td>73</td></tr>
+<tr><td>Stanford University</td><td>5</td><td>2</td><td>2</td></tr>
+<tr><td>Imperial College London</td><td>6</td><td>8</td><td>23</td></tr>
+<tr><td>ETH Zurich - Swiss Federal Institute of Technology</td><td>7</td><td>11</td><td>20</td></tr>
+<tr><td>National University of Singapore (NUS)</td><td>8</td><td>19</td><td>71</td></tr>
+<tr><td>UCL</td><td>9</td><td>22</td><td>17</td></tr>
+<tr><td>University of California, Berkeley (UCB)</td><td>10</td><td>9</td><td>5</td></tr>
+<tr><td>University of Chicago</td><td>11</td><td>13</td><td>10</td></tr>
+<tr><td>University of Pennsylvania</td><td>12</td><td>16</td><td>14</td></tr>
+<tr><td>Cornell University</td><td>13</td><td>20</td><td>12</td></tr>
+<tr><td>The University of Melbourne</td><td>14</td><td>37</td><td>35</td></tr>
+<tr><td>California Institute of Technology (Caltech)</td><td>15</td><td>7</td><td>9</td></tr>
+<tr><td>Yale University</td><td>16</td><td>10</td><td>11</td></tr>
+<tr><td>Princeton University</td><td>17</td><td>14</td><td>6</td></tr>
+<tr><td>Peking University</td><td>17</td><td>6</td><td>29</td></tr>
+<tr><td>The University of New South Wales (UNSW Sydney)</td><td>19</td><td>84</td><td>72</td></tr>
+<tr><td>The University of Sydney</td><td>19</td><td>60</td><td>73</td></tr>
 <tr><td>University of Toronto</td><td>21</td><td>21</td><td>24</td></tr>
-<tr><td>The University of Edinburgh</td><td>22</td><td>22</td><td>38</td></tr>
-<tr><td>Columbia University</td><td>23</td><td>23</td><td>8</td></tr>
-<tr><td>UniversitÃ© PSL</td><td>24</td><td>24</td><td>41</td></tr>
-<tr><td>Tsinghua University</td><td>25</td><td>25</td><td>22</td></tr>
-<tr><td>The University of Hong Kong</td><td>26</td><td>26</td><td>88</td></tr>
-<tr><td>Nanyang Technological University, Singapore (NTU)</td><td>26</td><td>26</td><td>93</td></tr>
-<tr><td>Johns Hopkins University</td><td>28</td><td>28</td><td>16</td></tr>
-<tr><td>The University of Tokyo</td><td>28</td><td>28</td><td>27</td></tr>
-<tr><td>University of California, Los Angeles (UCLA)</td><td>29</td><td>29</td><td>13</td></tr>
-<tr><td>McGill University</td><td>30</td><td>30</td><td>70</td></tr>
-<tr><td>The University of Manchester</td><td>32</td><td>32</td><td>41</td></tr>
-<tr><td>University of Michigan-Ann Arbor</td><td>33</td><td>33</td><td>26</td></tr>
-<tr><td>University of British Columbia</td><td>34</td><td>34</td><td>44</td></tr>
-<tr><td>The Australian National University</td><td>34</td><td>34</td><td>84</td></tr>
-<tr><td>EPFL</td><td>36</td><td>36</td><td>54</td></tr>
-<tr><td>Technical University of Munich</td><td>37</td><td>37</td><td>59</td></tr>
-<tr><td>New York University (NYU)</td><td>38</td><td>38</td><td>28</td></tr>
-<tr><td>Institut Polytechnique de Paris</td><td>38</td><td>38</td><td>301-400</td></tr>
-<tr><td>King&#x27;s College London</td><td>40</td><td>40</td><td>59</td></tr>
-<tr><td>Seoul National University</td><td>41</td><td>41</td><td>94</td></tr>
-<tr><td>Monash University</td><td>42</td><td>42</td><td>77</td></tr>
-<tr><td>The University of Queensland</td><td>43</td><td>43</td><td>51</td></tr>
-<tr><td>Zhejiang University</td><td>44</td><td>44</td><td>33</td></tr>
-<tr><td>The London School of Economics and Political Science (LSE)</td><td>45</td><td>45</td><td>151-200</td></tr>
-<tr><td>Kyoto University</td><td>46</td><td>46</td><td>39</td></tr>
-<tr><td>Northwestern University</td><td>47</td><td>47</td><td>30</td></tr>
-<tr><td>The Chinese University of Hong Kong (CUHK)</td><td>47</td><td>47</td><td>101-150</td></tr>
-<tr><td>Delft University of Technology</td><td>47</td><td>47</td><td>151-200</td></tr>
-<tr><td>Fudan University</td><td>50</td><td>50</td><td>56</td></tr>
-<tr><td>Shanghai Jiao Tong University</td><td>51</td><td>51</td><td>46</td></tr>
-<tr><td>Carnegie Mellon University</td><td>52</td><td>52</td><td>101-150</td></tr>
-<tr><td>University of Amsterdam</td><td>53</td><td>53</td><td>101-150</td></tr>
-<tr><td>Ludwig-Maximilians-UniversitÃ¤t MÃ¼nchen</td><td>54</td><td>54</td><td>N/A</td></tr>
-<tr><td>University of Bristol</td><td>55</td><td>55</td><td>88</td></tr>
-<tr><td>KAIST - Korea Advanced Institute of Science &amp; Technology</td><td>56</td><td>56</td><td>201-300</td></tr>
-<tr><td>Duke University</td><td>57</td><td>57</td><td>34</td></tr>
-<tr><td>University of Texas at Austin</td><td>58</td><td>58</td><td>43</td></tr>
-<tr><td>Sorbonne University</td><td>59</td><td>59</td><td>46</td></tr>
-<tr><td>The Hong Kong University of Science and Technology</td><td>60</td><td>60</td><td>301-400</td></tr>
-<tr><td>KU Leuven</td><td>61</td><td>61</td><td>86</td></tr>
-<tr><td>University of California, San Diego (UCSD)</td><td>62</td><td>62</td><td>19</td></tr>
-<tr><td>University of Washington</td><td>63</td><td>63</td><td>18</td></tr>
-<tr><td>University of Illinois at Urbana-Champaign</td><td>64</td><td>64</td><td>52</td></tr>
-<tr><td>The Hong Kong Polytechnic University</td><td>65</td><td>65</td><td>151-200</td></tr>
-<tr><td>Universiti Malaya (UM)</td><td>65</td><td>65</td><td>401-500</td></tr>
-<tr><td>The University of Warwick</td><td>67</td><td>67</td><td>101-150</td></tr>
-<tr><td>The University of Auckland</td><td>68</td><td>68</td><td>201-300</td></tr>
-<tr><td>National Taiwan University (NTU)</td><td>69</td><td>69</td><td>201-300</td></tr>
-<tr><td>City University of Hong Kong</td><td>70</td><td>70</td><td>101-150</td></tr>
-<tr><td>UniversitÃ© Paris-Saclay</td><td>71</td><td>71</td><td>15</td></tr>
-<tr><td>The University of Western Australia</td><td>72</td><td>72</td><td>101-150</td></tr>
-<tr><td>Brown University</td><td>73</td><td>73</td><td>98</td></tr>
-<tr><td>KTH Royal Institute of Technology </td><td>73</td><td>73</td><td>201-300</td></tr>
-<tr><td>University of Leeds</td><td>75</td><td>75</td><td>151-200</td></tr>
-<tr><td>University of Glasgow</td><td>76</td><td>76</td><td>101-150</td></tr>
+<tr><td>The University of Edinburgh</td><td>22</td><td>30</td><td>38</td></tr>
+<tr><td>Columbia University</td><td>23</td><td>17</td><td>8</td></tr>
+<tr><td>UniversitÃ© PSL</td><td>24</td><td>40</td><td>41</td></tr>
+<tr><td>Tsinghua University</td><td>25</td><td>12</td><td>22</td></tr>
+<tr><td>The University of Hong Kong</td><td>26</td><td>32</td><td>88</td></tr>
+<tr><td>Nanyang Technological University, Singapore (NTU)</td><td>26</td><td>35</td><td>93</td></tr>
+<tr><td>Johns Hopkins University</td><td>28</td><td>15</td><td>16</td></tr>
+<tr><td>The University of Tokyo</td><td>28</td><td>29</td><td>27</td></tr>
+<tr><td>University of California, Los Angeles (UCLA)</td><td>29</td><td>18</td><td>13</td></tr>
+<tr><td>McGill University</td><td>30</td><td>49</td><td>70</td></tr>
+<tr><td>The University of Manchester</td><td>32</td><td>51</td><td>41</td></tr>
+<tr><td>University of Michigan-Ann Arbor</td><td>33</td><td>23</td><td>26</td></tr>
+<tr><td>University of British Columbia</td><td>34</td><td>67</td><td>44</td></tr>
+<tr><td>The Australian National University</td><td>34</td><td>41</td><td>84</td></tr>
+<tr><td>EPFL</td><td>36</td><td>33</td><td>54</td></tr>
+<tr><td>Technical University of Munich</td><td>37</td><td>30</td><td>59</td></tr>
+<tr><td>New York University (NYU)</td><td>38</td><td>71</td><td>28</td></tr>
+<tr><td>Institut Polytechnique de Paris</td><td>38</td><td>27</td><td>301-400</td></tr>
+<tr><td>King&#x27;s College London</td><td>40</td><td>38</td><td>59</td></tr>
+<tr><td>Seoul National University</td><td>41</td><td>62</td><td>94</td></tr>
+<tr><td>Monash University</td><td>42</td><td>54</td><td>77</td></tr>
+<tr><td>The University of Queensland</td><td>43</td><td>70</td><td>51</td></tr>
+<tr><td>Zhejiang University</td><td>44</td><td>55</td><td>33</td></tr>
+<tr><td>The London School of Economics and Political Science (LSE)</td><td>45</td><td>46</td><td>151-200</td></tr>
+<tr><td>Kyoto University</td><td>46</td><td>55</td><td>39</td></tr>
+<tr><td>Northwestern University</td><td>47</td><td>48</td><td>30</td></tr>
+<tr><td>The Chinese University of Hong Kong (CUHK)</td><td>47</td><td>28</td><td>101-150</td></tr>
+<tr><td>Delft University of Technology</td><td>47</td><td>53</td><td>151-200</td></tr>
+<tr><td>Fudan University</td><td>50</td><td>44</td><td>56</td></tr>
+<tr><td>Shanghai Jiao Tong University</td><td>51</td><td>43</td><td>46</td></tr>
+<tr><td>Carnegie Mellon University</td><td>52</td><td>24</td><td>101-150</td></tr>
+<tr><td>University of Amsterdam</td><td>53</td><td>61</td><td>101-150</td></tr>
+<tr><td>Ludwig-Maximilians-UniversitÃ¤t MÃ¼nchen</td><td>54</td><td>38</td><td>N/A</td></tr>
+<tr><td>University of Bristol</td><td>55</td><td>81</td><td>88</td></tr>
+<tr><td>KAIST - Korea Advanced Institute of Science &amp; Technology</td><td>56</td><td>83</td><td>201-300</td></tr>
+<tr><td>Duke University</td><td>57</td><td>26</td><td>34</td></tr>
+<tr><td>University of Texas at Austin</td><td>58</td><td>52</td><td>43</td></tr>
+<tr><td>Sorbonne University</td><td>59</td><td>75</td><td>46</td></tr>
+<tr><td>The Hong Kong University of Science and Technology</td><td>60</td><td>64</td><td>301-400</td></tr>
+<tr><td>KU Leuven</td><td>61</td><td>45</td><td>86</td></tr>
+<tr><td>University of California, San Diego (UCSD)</td><td>62</td><td>34</td><td>19</td></tr>
+<tr><td>University of Washington</td><td>63</td><td>25</td><td>18</td></tr>
+<tr><td>University of Illinois at Urbana-Champaign</td><td>64</td><td>42</td><td>52</td></tr>
+<tr><td>The Hong Kong Polytechnic University</td><td>65</td><td>87</td><td>151-200</td></tr>
+<tr><td>Universiti Malaya (UM)</td><td>65</td><td>251-300</td><td>401-500</td></tr>
+<tr><td>The University of Warwick</td><td>67</td><td>106</td><td>101-150</td></tr>
+<tr><td>The University of Auckland</td><td>68</td><td>150</td><td>201-300</td></tr>
+<tr><td>National Taiwan University (NTU)</td><td>69</td><td>152</td><td>201-300</td></tr>
+<tr><td>City University of Hong Kong</td><td>70</td><td>82</td><td>101-150</td></tr>
+<tr><td>UniversitÃ© Paris-Saclay</td><td>71</td><td>58</td><td>15</td></tr>
+<tr><td>The University of Western Australia</td><td>72</td><td>143</td><td>101-150</td></tr>
+<tr><td>Brown University</td><td>73</td><td>64</td><td>98</td></tr>
+<tr><td>KTH Royal Institute of Technology </td><td>73</td><td>97</td><td>201-300</td></tr>
+<tr><td>University of Leeds</td><td>75</td><td>129</td><td>151-200</td></tr>
+<tr><td>University of Glasgow</td><td>76</td><td>87</td><td>101-150</td></tr>
 <tr><td>Yonsei University</td><td>76</td><td>76</td><td>201-300</td></tr>
-<tr><td>Durham University</td><td>78</td><td>78</td><td>301-400</td></tr>
-<tr><td>Korea University</td><td>79</td><td>79</td><td>201-300</td></tr>
-<tr><td>Osaka University</td><td>80</td><td>80</td><td>151-200</td></tr>
-<tr><td>University of Southampton</td><td>81</td><td>81</td><td>151-200</td></tr>
-<tr><td>Trinity College Dublin, The University of Dublin</td><td>81</td><td>81</td><td>201-300</td></tr>
-<tr><td>Pennsylvania State University</td><td>83</td><td>83</td><td>101-150</td></tr>
-<tr><td>University of Birmingham</td><td>84</td><td>84</td><td>151-200</td></tr>
-<tr><td>Universidade de SÃ£o Paulo</td><td>85</td><td>85</td><td>101-150</td></tr>
-<tr><td>Lund University</td><td>85</td><td>85</td><td>151-200</td></tr>
-<tr><td>Ruprecht-Karls-UniversitÃ¤t Heidelberg</td><td>87</td><td>87</td><td>55</td></tr>
-<tr><td>Lomonosov Moscow State University</td><td>87</td><td>87</td><td>101-150</td></tr>
-<tr><td>The University of Adelaide</td><td>89</td><td>89</td><td>151-200</td></tr>
-<tr><td>University of Technology Sydney</td><td>90</td><td>90</td><td>201-300</td></tr>
-<tr><td>University of Zurich</td><td>91</td><td>91</td><td>59</td></tr>
-<tr><td>Tokyo Institute of Technology (Tokyo Tech)</td><td>91</td><td>91</td><td>151-200</td></tr>
-<tr><td>Boston University</td><td>93</td><td>93</td><td>101-150</td></tr>
-<tr><td>Universidad Nacional AutÃ³noma de MÃ©xico (UNAM)</td><td>93</td><td>93</td><td>201-300</td></tr>
-<tr><td>Universidad de Buenos Aires (UBA)</td><td>95</td><td>95</td><td>201-300</td></tr>
-<tr><td>University of St Andrews</td><td>95</td><td>95</td><td>301-400</td></tr>
-<tr><td>Georgia Institute of Technology</td><td>97</td><td>97</td><td>151-200</td></tr>
-<tr><td>Freie Universitaet Berlin</td><td>98</td><td>98</td><td>N/A</td></tr>
-<tr><td>Purdue University</td><td>99</td><td>99</td><td>96</td></tr>
-<tr><td>University of Nottingham</td><td>100</td><td>100</td><td>101-150</td></tr>
-<tr><td>Pohang University of Science And Technology (POSTECH)</td><td>100</td><td>100</td><td>301-400</td></tr>
-<tr><td>University of Wisconsin-Madison</td><td>102</td><td>102</td><td>35</td></tr>
-<tr><td>Pontificia Universidad CatÃ³lica de Chile (UC)</td><td>103</td><td>103</td><td>601-700</td></tr>
-<tr><td>The University of Sheffield</td><td>104</td><td>104</td><td>151-200</td></tr>
-<tr><td>Uppsala University</td><td>105</td><td>105</td><td>82</td></tr>
-<tr><td>RWTH Aachen University</td><td>106</td><td>106</td><td>201-300</td></tr>
-<tr><td>University of Copenhagen</td><td>107</td><td>107</td><td>32</td></tr>
-<tr><td>Utrecht University</td><td>107</td><td>107</td><td>52</td></tr>
-<tr><td>Aalto University</td><td>109</td><td>109</td><td>301-400</td></tr>
-<tr><td>Newcastle University</td><td>110</td><td>110</td><td>201-300</td></tr>
-<tr><td>University of Alberta</td><td>111</td><td>111</td><td>91</td></tr>
-<tr><td>University of Waterloo</td><td>112</td><td>112</td><td>151-200</td></tr>
-<tr><td>Tohoku University</td><td>113</td><td>113</td><td>201-300</td></tr>
-<tr><td>Western University</td><td>114</td><td>114</td><td>301-400</td></tr>
-<tr><td>University of Helsinki</td><td>115</td><td>115</td><td>101-150</td></tr>
-<tr><td>University of Southern California</td><td>116</td><td>116</td><td>58</td></tr>
-<tr><td>University of Oslo</td><td>117</td><td>117</td><td>73</td></tr>
-<tr><td>Stockholm University</td><td>118</td><td>118</td><td>98</td></tr>
-<tr><td>University of California, Davis</td><td>118</td><td>118</td><td>101-150</td></tr>
-<tr><td>KIT, Karlsruhe Institute of Technology</td><td>119</td><td>119</td><td>301-400</td></tr>
-<tr><td>Humboldt-UniversitÃ¤t zu Berlin</td><td>120</td><td>120</td><td>N/A</td></tr>
-<tr><td>Technical University of Denmark</td><td>121</td><td>121</td><td>151-200</td></tr>
-<tr><td>Lancaster University</td><td>122</td><td>122</td><td>301-400</td></tr>
-<tr><td>Politecnico di Milano</td><td>123</td><td>123</td><td>201-300</td></tr>
-<tr><td>University of Basel</td><td>124</td><td>124</td><td>81</td></tr>
-<tr><td>Eindhoven University of Technology</td><td>124</td><td>124</td><td>401-500</td></tr>
-<tr><td>Leiden University</td><td>126</td><td>126</td><td>101-150</td></tr>
-<tr><td>University of Bern</td><td>126</td><td>126</td><td>101-150</td></tr>
-<tr><td>University of Geneva</td><td>128</td><td>128</td><td>49</td></tr>
-<tr><td>Chalmers University of Technology</td><td>129</td><td>129</td><td>401-500</td></tr>
-<tr><td>University of Vienna</td><td>130</td><td>130</td><td>101-150</td></tr>
-<tr><td>Macquarie University</td><td>130</td><td>130</td><td>201-300</td></tr>
-<tr><td>University of North Carolina, Chapel Hill</td><td>132</td><td>132</td><td>31</td></tr>
-<tr><td>Sapienza University of Rome</td><td>134</td><td>134</td><td>101-150</td></tr>
-<tr><td>Texas A&amp;M University</td><td>134</td><td>134</td><td>151-200</td></tr>
-<tr><td>Michigan State University</td><td>136</td><td>136</td><td>151-200</td></tr>
-<tr><td>University of Science and Technology of China</td><td>137</td><td>137</td><td>64</td></tr>
-<tr><td>Universiti Sains Malaysia (USM)</td><td>137</td><td>137</td><td>601-700</td></tr>
-<tr><td>University of Groningen</td><td>139</td><td>139</td><td>76</td></tr>
-<tr><td>RMIT University</td><td>140</td><td>140</td><td>301-400</td></tr>
-<tr><td>Nanjing University</td><td>141</td><td>141</td><td>96</td></tr>
-<tr><td>UniversitÃƒÂ© de MontrÃƒÂ©al </td><td>141</td><td>141</td><td>151-200</td></tr>
-<tr><td>Aarhus University</td><td>143</td><td>143</td><td>78</td></tr>
-<tr><td>King Abdulaziz University (KAU)</td><td>143</td><td>143</td><td>151-200</td></tr>
-<tr><td>Rice University</td><td>145</td><td>145</td><td>101-150</td></tr>
-<tr><td>Sungkyunkwan University(SKKU)</td><td>145</td><td>145</td><td>151-200</td></tr>
+<tr><td>Durham University</td><td>78</td><td>174</td><td>301-400</td></tr>
+<tr><td>Korea University</td><td>79</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>Osaka University</td><td>80</td><td>175</td><td>151-200</td></tr>
+<tr><td>University of Southampton</td><td>81</td><td>134</td><td>151-200</td></tr>
+<tr><td>Trinity College Dublin, The University of Dublin</td><td>81</td><td>97</td><td>201-300</td></tr>
+<tr><td>Pennsylvania State University</td><td>83</td><td>16</td><td>101-150</td></tr>
+<tr><td>University of Birmingham</td><td>84</td><td>101</td><td>151-200</td></tr>
+<tr><td>Universidade de SÃ£o Paulo</td><td>85</td><td>106</td><td>101-150</td></tr>
+<tr><td>Lund University</td><td>85</td><td>201-250</td><td>151-200</td></tr>
+<tr><td>Ruprecht-Karls-UniversitÃ¤t Heidelberg</td><td>87</td><td>95</td><td>55</td></tr>
+<tr><td>Lomonosov Moscow State University</td><td>87</td><td>47</td><td>101-150</td></tr>
+<tr><td>The University of Adelaide</td><td>89</td><td>111</td><td>151-200</td></tr>
+<tr><td>University of Technology Sydney</td><td>90</td><td>148</td><td>201-300</td></tr>
+<tr><td>University of Zurich</td><td>91</td><td>191</td><td>59</td></tr>
+<tr><td>Tokyo Institute of Technology (Tokyo Tech)</td><td>91</td><td>80</td><td>151-200</td></tr>
+<tr><td>Boston University</td><td>93</td><td>78</td><td>101-150</td></tr>
+<tr><td>Universidad Nacional AutÃ³noma de MÃ©xico (UNAM)</td><td>93</td><td>801-1000</td><td>201-300</td></tr>
+<tr><td>Universidad de Buenos Aires (UBA)</td><td>95</td><td>111</td><td>201-300</td></tr>
+<tr><td>University of St Andrews</td><td>95</td><td>193</td><td>301-400</td></tr>
+<tr><td>Georgia Institute of Technology</td><td>97</td><td>36</td><td>151-200</td></tr>
+<tr><td>Freie Universitaet Berlin</td><td>98</td><td>102</td><td>N/A</td></tr>
+<tr><td>Purdue University</td><td>99</td><td>86</td><td>96</td></tr>
+<tr><td>University of Nottingham</td><td>100</td><td>149</td><td>101-150</td></tr>
+<tr><td>Pohang University of Science And Technology (POSTECH)</td><td>100</td><td>130</td><td>301-400</td></tr>
+<tr><td>University of Wisconsin-Madison</td><td>102</td><td>63</td><td>35</td></tr>
+<tr><td>Pontificia Universidad CatÃ³lica de Chile (UC)</td><td>103</td><td>401-500</td><td>601-700</td></tr>
+<tr><td>The University of Sheffield</td><td>104</td><td>105</td><td>151-200</td></tr>
+<tr><td>Uppsala University</td><td>105</td><td>140</td><td>82</td></tr>
+<tr><td>RWTH Aachen University</td><td>106</td><td>90</td><td>201-300</td></tr>
+<tr><td>University of Copenhagen</td><td>107</td><td>103</td><td>32</td></tr>
+<tr><td>Utrecht University</td><td>107</td><td>66</td><td>52</td></tr>
+<tr><td>Aalto University</td><td>109</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>Newcastle University</td><td>110</td><td>168</td><td>201-300</td></tr>
+<tr><td>University of Alberta</td><td>111</td><td>109</td><td>91</td></tr>
+<tr><td>University of Waterloo</td><td>112</td><td>158</td><td>151-200</td></tr>
+<tr><td>Tohoku University</td><td>113</td><td>130</td><td>201-300</td></tr>
+<tr><td>Western University</td><td>114</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>University of Helsinki</td><td>115</td><td>121</td><td>101-150</td></tr>
+<tr><td>University of Southern California</td><td>116</td><td>74</td><td>58</td></tr>
+<tr><td>University of Oslo</td><td>117</td><td>127</td><td>73</td></tr>
+<tr><td>Stockholm University</td><td>118</td><td>185</td><td>98</td></tr>
+<tr><td>University of California, Davis</td><td>118</td><td>59</td><td>101-150</td></tr>
+<tr><td>KIT, Karlsruhe Institute of Technology</td><td>119</td><td>140</td><td>301-400</td></tr>
+<tr><td>Humboldt-UniversitÃ¤t zu Berlin</td><td>120</td><td>87</td><td>N/A</td></tr>
+<tr><td>Technical University of Denmark</td><td>121</td><td>126</td><td>151-200</td></tr>
+<tr><td>Lancaster University</td><td>122</td><td>155</td><td>301-400</td></tr>
+<tr><td>Politecnico di Milano</td><td>123</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>University of Basel</td><td>124</td><td>168</td><td>81</td></tr>
+<tr><td>Eindhoven University of Technology</td><td>124</td><td>123</td><td>401-500</td></tr>
+<tr><td>Leiden University</td><td>126</td><td>77</td><td>101-150</td></tr>
+<tr><td>University of Bern</td><td>126</td><td>116</td><td>101-150</td></tr>
+<tr><td>University of Geneva</td><td>128</td><td>183</td><td>49</td></tr>
+<tr><td>Chalmers University of Technology</td><td>129</td><td>189</td><td>401-500</td></tr>
+<tr><td>University of Vienna</td><td>130</td><td>180</td><td>101-150</td></tr>
+<tr><td>Macquarie University</td><td>130</td><td>119</td><td>201-300</td></tr>
+<tr><td>University of North Carolina, Chapel Hill</td><td>132</td><td>72</td><td>31</td></tr>
+<tr><td>Sapienza University of Rome</td><td>134</td><td>181</td><td>101-150</td></tr>
+<tr><td>Texas A&amp;M University</td><td>134</td><td>118</td><td>151-200</td></tr>
+<tr><td>Michigan State University</td><td>136</td><td>116</td><td>151-200</td></tr>
+<tr><td>University of Science and Technology of China</td><td>137</td><td>401-500</td><td>64</td></tr>
+<tr><td>Universiti Sains Malaysia (USM)</td><td>137</td><td>57</td><td>601-700</td></tr>
+<tr><td>University of Groningen</td><td>139</td><td>79</td><td>76</td></tr>
+<tr><td>RMIT University</td><td>140</td><td>251-300</td><td>301-400</td></tr>
+<tr><td>Nanjing University</td><td>141</td><td>73</td><td>96</td></tr>
+<tr><td>UniversitÃ© de MontrÃ©al </td><td>141</td><td>111</td><td>151-200</td></tr>
+<tr><td>Aarhus University</td><td>143</td><td>109</td><td>78</td></tr>
+<tr><td>King Abdulaziz University (KAU)</td><td>143</td><td>251-300</td><td>151-200</td></tr>
+<tr><td>Rice University</td><td>145</td><td>135</td><td>101-150</td></tr>
+<tr><td>Sungkyunkwan University(SKKU)</td><td>145</td><td>119</td><td>151-200</td></tr>
 <tr><td>Queen Mary University of London</td><td>145</td><td>145</td><td>201-300</td></tr>
-<tr><td>University of Bath</td><td>148</td><td>148</td><td>401-500</td></tr>
-<tr><td>Universitat AutÃ²noma de Barcelona</td><td>149</td><td>149</td><td>301-400</td></tr>
-<tr><td>Indian Institute of Technology Bombay (IITB)</td><td>149</td><td>149</td><td>N/A</td></tr>
-<tr><td>The Ohio State University</td><td>151</td><td>151</td><td>101-150</td></tr>
-<tr><td>Wageningen University &amp; Research</td><td>151</td><td>151</td><td>151-200</td></tr>
-<tr><td>The University of Exeter</td><td>153</td><td>153</td><td>151-200</td></tr>
-<tr><td>Washington University in St. Louis</td><td>154</td><td>154</td><td>25</td></tr>
-<tr><td>Cardiff University</td><td>154</td><td>154</td><td>151-200</td></tr>
-<tr><td>Alma Mater Studiorum - University of Bologna</td><td>154</td><td>154</td><td>201-300</td></tr>
-<tr><td>Technische UniversitÃ¤t Berlin (TU Berlin)</td><td>154</td><td>154</td><td>201-300</td></tr>
-<tr><td>Universiti Putra Malaysia (UPM)</td><td>158</td><td>158</td><td>801-900</td></tr>
-<tr><td>Ghent University</td><td>159</td><td>159</td><td>84</td></tr>
-<tr><td>Universidad de Chile</td><td>159</td><td>159</td><td>401-500</td></tr>
-<tr><td>Universiti Kebangsaan Malaysia (UKM)</td><td>159</td><td>159</td><td>N/A</td></tr>
-<tr><td>University of Wollongong</td><td>162</td><td>162</td><td>201-300</td></tr>
-<tr><td>University of California, Santa Barbara (UCSB)</td><td>163</td><td>163</td><td>63</td></tr>
-<tr><td>Hanyang University</td><td>164</td><td>164</td><td>201-300</td></tr>
-<tr><td>Universitat de Barcelona</td><td>164</td><td>164</td><td>201-300</td></tr>
-<tr><td>Kyushu University</td><td>164</td><td>164</td><td>301-400</td></tr>
-<tr><td>Emory University</td><td>166</td><td>166</td><td>101-150</td></tr>
-<tr><td>University of York</td><td>167</td><td>167</td><td>301-400</td></tr>
-<tr><td>University of Florida</td><td>168</td><td>168</td><td>101-150</td></tr>
-<tr><td>University of Maryland, College Park</td><td>169</td><td>169</td><td>50</td></tr>
-<tr><td>University of Reading</td><td>169</td><td>169</td><td>301-400</td></tr>
-<tr><td>Complutense University of Madrid</td><td>171</td><td>171</td><td>301-400</td></tr>
-<tr><td>University College Dublin</td><td>171</td><td>171</td><td>301-400</td></tr>
-<tr><td>University of Cape Town</td><td>173</td><td>173</td><td>201-300</td></tr>
-<tr><td>The University of Newcastle, Australia (UON)</td><td>173</td><td>173</td><td>401-500</td></tr>
-<tr><td>Qatar University</td><td>173</td><td>173</td><td>501-600</td></tr>
-<tr><td>Erasmus University Rotterdam </td><td>176</td><td>176</td><td>88</td></tr>
-<tr><td>Nagoya University</td><td>176</td><td>176</td><td>101-150</td></tr>
-<tr><td>University of Liverpool</td><td>176</td><td>176</td><td>101-150</td></tr>
-<tr><td>Arizona State University</td><td>179</td><td>179</td><td>101-150</td></tr>
-<tr><td>UniversitÃ© catholique de Louvain (UCLouvain)</td><td>180</td><td>180</td><td>201-300</td></tr>
-<tr><td>King Fahd University of Petroleum &amp; Minerals</td><td>180</td><td>180</td><td>401-500</td></tr>
-<tr><td>University of Calgary</td><td>182</td><td>182</td><td>201-300</td></tr>
-<tr><td>Curtin University</td><td>183</td><td>183</td><td>201-300</td></tr>
-<tr><td>Ã‰cole Normale SupÃ©rieure de Lyon</td><td>184</td><td>184</td><td>201-300</td></tr>
-<tr><td>Technische UniversitÃ¤t Wien</td><td>184</td><td>184</td><td>301-400</td></tr>
-<tr><td>TecnolÃ³gico de Monterrey</td><td>184</td><td>184</td><td>N/A</td></tr>
-<tr><td>University of Gothenburg</td><td>187</td><td>187</td><td>101-150</td></tr>
-<tr><td>Universiti Teknologi Malaysia </td><td>188</td><td>188</td><td>701-800</td></tr>
-<tr><td>McMaster University</td><td>189</td><td>189</td><td>98</td></tr>
-<tr><td>Universite libre de Bruxelles</td><td>189</td><td>189</td><td>101-150</td></tr>
-<tr><td>Queensland University of Technology (QUT)</td><td>189</td><td>189</td><td>301-400</td></tr>
-<tr><td>Albert-Ludwigs-Universitaet Freiburg</td><td>192</td><td>192</td><td>101-150</td></tr>
-<tr><td>Ecole des Ponts ParisTech</td><td>192</td><td>192</td><td>N/A</td></tr>
-<tr><td>Wuhan University</td><td>194</td><td>194</td><td>101-150</td></tr>
-<tr><td>University of Minnesota Twin Cities</td><td>195</td><td>195</td><td>44</td></tr>
-<tr><td>Hokkaido University</td><td>196</td><td>196</td><td>201-300</td></tr>
-<tr><td>Indian Institute of Technology Delhi (IITD)</td><td>197</td><td>197</td><td>601-700</td></tr>
-<tr><td>Universidad de los Andes</td><td>198</td><td>198</td><td>N/A</td></tr>
-<tr><td>Universidad AutÃ³noma de Madrid</td><td>199</td><td>199</td><td>301-400</td></tr>
-<tr><td>Waseda University</td><td>199</td><td>199</td><td>701-800</td></tr>
-<tr><td>Queen&#x27;s University Belfast</td><td>202</td><td>202</td><td>301-400</td></tr>
-<tr><td>King Saud University</td><td>203</td><td>203</td><td>101-150</td></tr>
-<tr><td>University of Ottawa</td><td>203</td><td>203</td><td>201-300</td></tr>
-<tr><td>UniversitÃ¤t Hamburg</td><td>205</td><td>205</td><td>201-300</td></tr>
-<tr><td>University of Otago</td><td>206</td><td>206</td><td>401-500</td></tr>
-<tr><td>Vrije Universiteit Amsterdam</td><td>207</td><td>207</td><td>151-200</td></tr>
-<tr><td>University of Aberdeen</td><td>208</td><td>208</td><td>201-300</td></tr>
-<tr><td>Queen&#x27;s University at Kingston</td><td>209</td><td>209</td><td>201-300</td></tr>
-<tr><td>University of Twente</td><td>210</td><td>210</td><td>401-500</td></tr>
-<tr><td>Chulalongkorn University</td><td>211</td><td>211</td><td>501-600</td></tr>
-<tr><td>Loughborough University</td><td>212</td><td>212</td><td>601-700</td></tr>
-<tr><td>Eberhard Karls UniversitÃ¤t TÃ¼bingen</td><td>213</td><td>213</td><td>151-200</td></tr>
-<tr><td>Keio University</td><td>214</td><td>214</td><td>301-400</td></tr>
-<tr><td>Tel Aviv University</td><td>215</td><td>215</td><td>201-300</td></tr>
-<tr><td>Tongji University</td><td>216</td><td>216</td><td>151-200</td></tr>
-<tr><td>National Yang Ming Chiao Tung University</td><td>217</td><td>217</td><td>401-500</td></tr>
-<tr><td>University of Sussex</td><td>218</td><td>218</td><td>201-300</td></tr>
-<tr><td>UniversitÃ Â di Padova</td><td>219</td><td>219</td><td>151-200</td></tr>
-<tr><td>University of Lausanne</td><td>220</td><td>220</td><td>101-150</td></tr>
-<tr><td>Universidade Estadual de Campinas (Unicamp)</td><td>220</td><td>220</td><td>401-500</td></tr>
-<tr><td>University of Pittsburgh</td><td>222</td><td>222</td><td>83</td></tr>
-<tr><td>Radboud University </td><td>222</td><td>222</td><td>101-150</td></tr>
-<tr><td>University of Rochester</td><td>224</td><td>224</td><td>201-300</td></tr>
-<tr><td>Indian Institute of Science</td><td>225</td><td>225</td><td>301-400</td></tr>
-<tr><td>American University of Beirut (AUB)</td><td>226</td><td>226</td><td>701-800</td></tr>
-<tr><td>Universidad Nacional de Colombia</td><td>226</td><td>226</td><td>901-1000</td></tr>
-<tr><td>National Cheng Kung University (NCKU)</td><td>228</td><td>228</td><td>301-400</td></tr>
-<tr><td>Friedrich-Alexander-UniversitÃ¤t Erlangen-NÃ¼rnberg</td><td>229</td><td>229</td><td>201-300</td></tr>
-<tr><td>Khalifa University of Science and Technology</td><td>230</td><td>230</td><td>801-900</td></tr>
-<tr><td>Al-Farabi Kazakh National University</td><td>230</td><td>230</td><td>N/A</td></tr>
-<tr><td>University of GÃ¶ttingen</td><td>232</td><td>232</td><td>151-200</td></tr>
-<tr><td>Deakin University</td><td>233</td><td>233</td><td>201-300</td></tr>
-<tr><td>National Tsing Hua University</td><td>233</td><td>233</td><td>401-500</td></tr>
-<tr><td>Heriot-Watt University</td><td>235</td><td>235</td><td>901-1000</td></tr>
-<tr><td>UniversitÃ© de Paris-CitÃ©</td><td>236</td><td>236</td><td>69</td></tr>
-<tr><td>Dartmouth College</td><td>237</td><td>237</td><td>301-400</td></tr>
-<tr><td>Universitas Indonesia</td><td>237</td><td>237</td><td>N/A</td></tr>
-<tr><td>Rheinische Friedrich-Wilhelms-UniversitÃ¤t Bonn</td><td>239</td><td>239</td><td>67</td></tr>
-<tr><td>Massey University</td><td>239</td><td>239</td><td>701-800</td></tr>
-<tr><td>Victoria University of Wellington</td><td>241</td><td>241</td><td>401-500</td></tr>
-<tr><td>La Trobe University</td><td>242</td><td>242</td><td>301-400</td></tr>
-<tr><td>Griffith University</td><td>243</td><td>243</td><td>301-400</td></tr>
-<tr><td>University of Surrey</td><td>244</td><td>244</td><td>301-400</td></tr>
-<tr><td>University of Massachusetts Amherst</td><td>245</td><td>245</td><td>151-200</td></tr>
-<tr><td>Technische UniversitÃ¤t Dresden</td><td>246</td><td>246</td><td>201-300</td></tr>
-<tr><td>Technical University of Darmstadt</td><td>246</td><td>246</td><td>401-500</td></tr>
-<tr><td>University of Antwerp</td><td>248</td><td>248</td><td>201-300</td></tr>
-<tr><td>Charles University</td><td>248</td><td>248</td><td>301-400</td></tr>
-<tr><td>University of Waikato</td><td>250</td><td>250</td><td>801-900</td></tr>
-<tr><td>The Hebrew University of Jerusalem</td><td>251</td><td>251</td><td>86</td></tr>
-<tr><td>Politecnico di Torino</td><td>252</td><td>252</td><td>601-700</td></tr>
-<tr><td>University of Porto</td><td>253</td><td>253</td><td>201-300</td></tr>
-<tr><td>University of Macau</td><td>254</td><td>254</td><td>301-400</td></tr>
-<tr><td>Case Western Reserve University</td><td>255</td><td>255</td><td>151-200</td></tr>
-<tr><td>Harbin Institute of Technology</td><td>256</td><td>256</td><td>101-150</td></tr>
-<tr><td>Maastricht University </td><td>256</td><td>256</td><td>201-300</td></tr>
-<tr><td>University of Canterbury</td><td>256</td><td>256</td><td>401-500</td></tr>
-<tr><td>Vrije Universiteit Brussel (VUB)</td><td>259</td><td>259</td><td>301-400</td></tr>
-<tr><td>University of Virginia</td><td>260</td><td>260</td><td>201-300</td></tr>
-<tr><td>Vanderbilt University</td><td>261</td><td>261</td><td>66</td></tr>
-<tr><td>University of Warsaw </td><td>262</td><td>262</td><td>401-500</td></tr>
-<tr><td>Gadjah Mada University</td><td>263</td><td>263</td><td>N/A</td></tr>
-<tr><td>University of Colorado Boulder</td><td>264</td><td>264</td><td>57</td></tr>
-<tr><td>University of Witwatersrand</td><td>264</td><td>264</td><td>301-400</td></tr>
-<tr><td>Ulsan National Institute of Science and Technology (UNIST)</td><td>266</td><td>266</td><td>201-300</td></tr>
-<tr><td>University of Lisbon </td><td>266</td><td>266</td><td>201-300</td></tr>
-<tr><td>University of California, Irvine</td><td>268</td><td>268</td><td>65</td></tr>
-<tr><td>University of Cologne</td><td>268</td><td>268</td><td>151-200</td></tr>
-<tr><td>LinkÃ¶ping University</td><td>268</td><td>268</td><td>301-400</td></tr>
-<tr><td>Indian Institute of Technology Kharagpur (IIT-KGP)</td><td>271</td><td>271</td><td>601-700</td></tr>
-<tr><td>Beijing Normal University </td><td>272</td><td>272</td><td>151-200</td></tr>
-<tr><td>University of Leicester</td><td>272</td><td>272</td><td>301-400</td></tr>
-<tr><td>North Carolina State University</td><td>274</td><td>274</td><td>201-300</td></tr>
-<tr><td>Huazhong University of Science and Technology</td><td>275</td><td>275</td><td>91</td></tr>
-<tr><td>University of Milan</td><td>276</td><td>276</td><td>151-200</td></tr>
-<tr><td>University of Strathclyde</td><td>276</td><td>276</td><td>501-600</td></tr>
-<tr><td>University of Miami</td><td>278</td><td>278</td><td>301-400</td></tr>
-<tr><td>Indian Institute of Technology Kanpur (IITK)</td><td>278</td><td>278</td><td>901-1000</td></tr>
-<tr><td>University of Navarra</td><td>280</td><td>280</td><td>501-600</td></tr>
-<tr><td>University of Bergen</td><td>281</td><td>281</td><td>301-400</td></tr>
-<tr><td>Bandung Institute of Technology (ITB)</td><td>281</td><td>281</td><td>N/A</td></tr>
-<tr><td>Stellenbosch University</td><td>283</td><td>283</td><td>401-500</td></tr>
-<tr><td>Taylor&#x27;s University</td><td>284</td><td>284</td><td>N/A</td></tr>
-<tr><td>Tianjin University</td><td>285</td><td>285</td><td>101-150</td></tr>
-<tr><td>The University of Arizona</td><td>285</td><td>285</td><td>151-200</td></tr>
-<tr><td>Swinburne University of Technology</td><td>285</td><td>285</td><td>201-300</td></tr>
-<tr><td>Indian Institute of Technology Madras (IITM)</td><td>285</td><td>285</td><td>701-800</td></tr>
-<tr><td>University of Galway</td><td>289</td><td>289</td><td>501-600</td></tr>
-<tr><td>United Arab Emirates University</td><td>290</td><td>290</td><td>801-900</td></tr>
-<tr><td>XiÃ¢â‚¬â„¢an Jiaotong University</td><td>291</td><td>291</td><td>101-150</td></tr>
-<tr><td>Norwegian University of Science And Technology</td><td>292</td><td>292</td><td>101-150</td></tr>
-<tr><td>University College Cork</td><td>292</td><td>292</td><td>301-400</td></tr>
-<tr><td>UniversitÃƒÂ© Grenoble Alpes</td><td>294</td><td>294</td><td>N/A</td></tr>
-<tr><td>University of East Anglia (UEA)</td><td>295</td><td>295</td><td>201-300</td></tr>
-<tr><td>Hong Kong Baptist University</td><td>295</td><td>295</td><td>601-700</td></tr>
-<tr><td>Georgetown University</td><td>297</td><td>297</td><td>401-500</td></tr>
-<tr><td>Dalhousie University</td><td>298</td><td>298</td><td>301-400</td></tr>
-<tr><td>Rutgers Universityâ€“New Brunswick</td><td>299</td><td>299</td><td>101-150</td></tr>
-<tr><td>UCSI University</td><td>300</td><td>300</td><td>N/A</td></tr>
+<tr><td>University of Bath</td><td>148</td><td>251-300</td><td>401-500</td></tr>
+<tr><td>Universitat AutÃ²noma de Barcelona</td><td>149</td><td>-</td><td>301-400</td></tr>
+<tr><td>Indian Institute of Technology Bombay (IITB)</td><td>149</td><td>201-250</td><td>N/A</td></tr>
+<tr><td>The Ohio State University</td><td>151</td><td>99</td><td>101-150</td></tr>
+<tr><td>Wageningen University &amp; Research</td><td>151</td><td>64</td><td>151-200</td></tr>
+<tr><td>The University of Exeter</td><td>153</td><td>177</td><td>151-200</td></tr>
+<tr><td>Washington University in St. Louis</td><td>154</td><td>155</td><td>25</td></tr>
+<tr><td>Cardiff University</td><td>154</td><td>190</td><td>151-200</td></tr>
+<tr><td>Alma Mater Studiorum - University of Bologna</td><td>154</td><td>136</td><td>201-300</td></tr>
+<tr><td>Technische UniversitÃ¤t Berlin (TU Berlin)</td><td>154</td><td>68</td><td>201-300</td></tr>
+<tr><td>Universiti Putra Malaysia (UPM)</td><td>158</td><td>501-600</td><td>801-900</td></tr>
+<tr><td>Ghent University</td><td>159</td><td>115</td><td>84</td></tr>
+<tr><td>Universidad de Chile</td><td>159</td><td>801-1000</td><td>401-500</td></tr>
+<tr><td>Universiti Kebangsaan Malaysia (UKM)</td><td>159</td><td>401-500</td><td>N/A</td></tr>
+<tr><td>University of Wollongong</td><td>162</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>University of California, Santa Barbara (UCSB)</td><td>163</td><td>69</td><td>63</td></tr>
+<tr><td>Hanyang University</td><td>164</td><td>301-350</td><td>201-300</td></tr>
+<tr><td>Universitat de Barcelona</td><td>164</td><td>301-400</td><td>201-300</td></tr>
+<tr><td>Kyushu University</td><td>164</td><td>152</td><td>301-400</td></tr>
+<tr><td>Emory University</td><td>166</td><td>106</td><td>101-150</td></tr>
+<tr><td>University of York</td><td>167</td><td>147</td><td>301-400</td></tr>
+<tr><td>University of Florida</td><td>168</td><td>132</td><td>101-150</td></tr>
+<tr><td>University of Maryland, College Park</td><td>169</td><td>114</td><td>50</td></tr>
+<tr><td>University of Reading</td><td>169</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>Complutense University of Madrid</td><td>171</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>University College Dublin</td><td>171</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>University of Cape Town</td><td>173</td><td>251-300</td><td>201-300</td></tr>
+<tr><td>The University of Newcastle, Australia (UON)</td><td>173</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>Qatar University</td><td>173</td><td>167</td><td>501-600</td></tr>
+<tr><td>Erasmus University Rotterdam </td><td>176</td><td>99</td><td>88</td></tr>
+<tr><td>Nagoya University</td><td>176</td><td>201-250</td><td>101-150</td></tr>
+<tr><td>University of Liverpool</td><td>176</td><td>168</td><td>101-150</td></tr>
+<tr><td>Arizona State University</td><td>179</td><td>182</td><td>101-150</td></tr>
+<tr><td>UniversitÃ© catholique de Louvain (UCLouvain)</td><td>180</td><td>401-500</td><td>201-300</td></tr>
+<tr><td>King Fahd University of Petroleum &amp; Minerals</td><td>180</td><td>168</td><td>401-500</td></tr>
+<tr><td>University of Calgary</td><td>182</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>Curtin University</td><td>183</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>Ã‰cole Normale SupÃ©rieure de Lyon</td><td>184</td><td>251-300</td><td>201-300</td></tr>
+<tr><td>Technische UniversitÃ¤t Wien</td><td>184</td><td>251-300</td><td>301-400</td></tr>
+<tr><td>TecnolÃ³gico de Monterrey</td><td>184</td><td>601-800</td><td>N/A</td></tr>
+<tr><td>University of Gothenburg</td><td>187</td><td>201-250</td><td>101-150</td></tr>
+<tr><td>Universiti Teknologi Malaysia </td><td>188</td><td>251-300</td><td>701-800</td></tr>
+<tr><td>McMaster University</td><td>189</td><td>103</td><td>98</td></tr>
+<tr><td>Universite libre de Bruxelles</td><td>189</td><td>199</td><td>101-150</td></tr>
+<tr><td>Queensland University of Technology (QUT)</td><td>189</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>Albert-Ludwigs-Universitaet Freiburg</td><td>192</td><td>128</td><td>101-150</td></tr>
+<tr><td>Ecole des Ponts ParisTech</td><td>192</td><td>401-500</td><td>N/A</td></tr>
+<tr><td>Wuhan University</td><td>194</td><td>164</td><td>101-150</td></tr>
+<tr><td>University of Minnesota Twin Cities</td><td>195</td><td>85</td><td>44</td></tr>
+<tr><td>Hokkaido University</td><td>196</td><td>351-400</td><td>201-300</td></tr>
+<tr><td>Indian Institute of Technology Delhi (IITD)</td><td>197</td><td>-</td><td>601-700</td></tr>
+<tr><td>Universidad de los Andes</td><td>198</td><td>18</td><td>N/A</td></tr>
+<tr><td>Universidad AutÃ³noma de Madrid</td><td>199</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>Waseda University</td><td>199</td><td>801-1000</td><td>701-800</td></tr>
+<tr><td>Queen&#x27;s University Belfast</td><td>202</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>King Saud University</td><td>203</td><td>401-500</td><td>101-150</td></tr>
+<tr><td>University of Ottawa</td><td>203</td><td>177</td><td>201-300</td></tr>
+<tr><td>UniversitÃ¤t Hamburg</td><td>205</td><td>136</td><td>201-300</td></tr>
+<tr><td>University of Otago</td><td>206</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>Vrije Universiteit Amsterdam</td><td>207</td><td>125</td><td>151-200</td></tr>
+<tr><td>University of Aberdeen</td><td>208</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>Queen&#x27;s University at Kingston</td><td>209</td><td>251-300</td><td>201-300</td></tr>
+<tr><td>University of Twente</td><td>210</td><td>184</td><td>401-500</td></tr>
+<tr><td>Chulalongkorn University</td><td>211</td><td>501-600</td><td>501-600</td></tr>
+<tr><td>Loughborough University</td><td>212</td><td>251-300</td><td>601-700</td></tr>
+<tr><td>Eberhard Karls UniversitÃ¤t TÃ¼bingen</td><td>213</td><td>95</td><td>151-200</td></tr>
+<tr><td>Keio University</td><td>214</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>Tel Aviv University</td><td>215</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>Tongji University</td><td>216</td><td>185</td><td>151-200</td></tr>
+<tr><td>National Yang Ming Chiao Tung University</td><td>217</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>University of Sussex</td><td>218</td><td>201-250</td><td>201-300</td></tr>
+<tr><td>UniversitÃ  di Padova</td><td>219</td><td>201-250</td><td>151-200</td></tr>
+<tr><td>University of Lausanne</td><td>220</td><td>351-400</td><td>101-150</td></tr>
+<tr><td>Universidade Estadual de Campinas (Unicamp)</td><td>220</td><td>143</td><td>401-500</td></tr>
+<tr><td>University of Pittsburgh</td><td>222</td><td>140</td><td>83</td></tr>
+<tr><td>Radboud University </td><td>222</td><td>145</td><td>101-150</td></tr>
+<tr><td>University of Rochester</td><td>224</td><td>133</td><td>201-300</td></tr>
+<tr><td>Indian Institute of Science</td><td>225</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>American University of Beirut (AUB)</td><td>226</td><td>501-600</td><td>701-800</td></tr>
+<tr><td>Universidad Nacional de Colombia</td><td>226</td><td>1201-1500</td><td>901-1000</td></tr>
+<tr><td>National Cheng Kung University (NCKU)</td><td>228</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>Friedrich-Alexander-UniversitÃ¤t Erlangen-NÃ¼rnberg</td><td>229</td><td>193</td><td>201-300</td></tr>
+<tr><td>Khalifa University of Science and Technology</td><td>230</td><td>1201-1500</td><td>801-900</td></tr>
+<tr><td>Al-Farabi Kazakh National University</td><td>230</td><td>251-300</td><td>N/A</td></tr>
+<tr><td>University of GÃ¶ttingen</td><td>232</td><td>111</td><td>151-200</td></tr>
+<tr><td>Deakin University</td><td>233</td><td>251-300</td><td>201-300</td></tr>
+<tr><td>National Tsing Hua University</td><td>233</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>Heriot-Watt University</td><td>235</td><td>351-400</td><td>901-1000</td></tr>
+<tr><td>UniversitÃ© de Paris-CitÃ©</td><td>236</td><td>152</td><td>69</td></tr>
+<tr><td>Dartmouth College</td><td>237</td><td>161</td><td>301-400</td></tr>
+<tr><td>Universitas Indonesia</td><td>237</td><td>801-1000</td><td>N/A</td></tr>
+<tr><td>Rheinische Friedrich-Wilhelms-UniversitÃ¤t Bonn</td><td>239</td><td>501-600</td><td>67</td></tr>
+<tr><td>Massey University</td><td>239</td><td>91</td><td>701-800</td></tr>
+<tr><td>Victoria University of Wellington</td><td>241</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>La Trobe University</td><td>242</td><td>251-300</td><td>301-400</td></tr>
+<tr><td>Griffith University</td><td>243</td><td>251-300</td><td>301-400</td></tr>
+<tr><td>University of Surrey</td><td>244</td><td>251-300</td><td>301-400</td></tr>
+<tr><td>University of Massachusetts Amherst</td><td>245</td><td>123</td><td>151-200</td></tr>
+<tr><td>Technische UniversitÃ¤t Dresden</td><td>246</td><td>251-300</td><td>201-300</td></tr>
+<tr><td>Technical University of Darmstadt</td><td>246</td><td>161</td><td>401-500</td></tr>
+<tr><td>University of Antwerp</td><td>248</td><td>401-500</td><td>201-300</td></tr>
+<tr><td>Charles University</td><td>248</td><td>161</td><td>301-400</td></tr>
+<tr><td>University of Waikato</td><td>250</td><td>401-500</td><td>801-900</td></tr>
+<tr><td>The Hebrew University of Jerusalem</td><td>251</td><td>301-350</td><td>86</td></tr>
+<tr><td>Politecnico di Torino</td><td>252</td><td>401-500</td><td>601-700</td></tr>
+<tr><td>University of Porto</td><td>253</td><td>401-500</td><td>201-300</td></tr>
+<tr><td>University of Macau</td><td>254</td><td>193</td><td>301-400</td></tr>
+<tr><td>Case Western Reserve University</td><td>255</td><td>164</td><td>151-200</td></tr>
+<tr><td>Harbin Institute of Technology</td><td>256</td><td>168</td><td>101-150</td></tr>
+<tr><td>Maastricht University </td><td>256</td><td>138</td><td>201-300</td></tr>
+<tr><td>University of Canterbury</td><td>256</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>Vrije Universiteit Brussel (VUB)</td><td>259</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>University of Virginia</td><td>260</td><td>166</td><td>201-300</td></tr>
+<tr><td>Vanderbilt University</td><td>261</td><td>92</td><td>66</td></tr>
+<tr><td>University of Warsaw </td><td>262</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>Gadjah Mada University</td><td>263</td><td>1201-1500</td><td>N/A</td></tr>
+<tr><td>University of Colorado Boulder</td><td>264</td><td>138</td><td>57</td></tr>
+<tr><td>University of Witwatersrand</td><td>264</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>Ulsan National Institute of Science and Technology (UNIST)</td><td>266</td><td>199</td><td>201-300</td></tr>
+<tr><td>University of Lisbon </td><td>266</td><td>401-500</td><td>201-300</td></tr>
+<tr><td>University of California, Irvine</td><td>268</td><td>251-300</td><td>65</td></tr>
+<tr><td>University of Cologne</td><td>268</td><td>92</td><td>151-200</td></tr>
+<tr><td>LinkÃ¶ping University</td><td>268</td><td>160</td><td>301-400</td></tr>
+<tr><td>Indian Institute of Technology Kharagpur (IIT-KGP)</td><td>271</td><td>-</td><td>601-700</td></tr>
+<tr><td>Beijing Normal University </td><td>272</td><td>177</td><td>151-200</td></tr>
+<tr><td>University of Leicester</td><td>272</td><td>201-250</td><td>301-400</td></tr>
+<tr><td>North Carolina State University</td><td>274</td><td>251-300</td><td>201-300</td></tr>
+<tr><td>Huazhong University of Science and Technology</td><td>275</td><td>158</td><td>91</td></tr>
+<tr><td>University of Milan</td><td>276</td><td>351-400</td><td>151-200</td></tr>
+<tr><td>University of Strathclyde</td><td>276</td><td>501-600</td><td>501-600</td></tr>
+<tr><td>University of Miami</td><td>278</td><td>-</td><td>301-400</td></tr>
+<tr><td>Indian Institute of Technology Kanpur (IITK)</td><td>278</td><td>201-250</td><td>901-1000</td></tr>
+<tr><td>University of Navarra</td><td>280</td><td>501-600</td><td>501-600</td></tr>
+<tr><td>University of Bergen</td><td>281</td><td>1201-1500</td><td>301-400</td></tr>
+<tr><td>Bandung Institute of Technology (ITB)</td><td>281</td><td>251-300</td><td>N/A</td></tr>
+<tr><td>Stellenbosch University</td><td>283</td><td>401-500</td><td>401-500</td></tr>
+<tr><td>Taylor&#x27;s University</td><td>284</td><td>-</td><td>N/A</td></tr>
+<tr><td>Tianjin University</td><td>285</td><td>-</td><td>101-150</td></tr>
+<tr><td>The University of Arizona</td><td>285</td><td>201-250</td><td>151-200</td></tr>
+<tr><td>Swinburne University of Technology</td><td>285</td><td>155</td><td>201-300</td></tr>
+<tr><td>Indian Institute of Technology Madras (IITM)</td><td>285</td><td>201-250</td><td>701-800</td></tr>
+<tr><td>University of Galway</td><td>289</td><td>301-350</td><td>501-600</td></tr>
+<tr><td>United Arab Emirates University</td><td>290</td><td>301-350</td><td>801-900</td></tr>
+<tr><td>Xiâ€™an Jiaotong University</td><td>291</td><td>251-300</td><td>101-150</td></tr>
+<tr><td>Norwegian University of Science And Technology</td><td>292</td><td>301-350</td><td>101-150</td></tr>
+<tr><td>University College Cork</td><td>292</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>UniversitÃ© Grenoble Alpes Grenoble Alpes</td><td>294</td><td>301-350</td><td>N/A</td></tr>
+<tr><td>University of East Anglia (UEA)</td><td>295</td><td>301-350</td><td>201-300</td></tr>
+<tr><td>Hong Kong Baptist University</td><td>295</td><td>251-300</td><td>601-700</td></tr>
+<tr><td>Georgetown University</td><td>297</td><td>187</td><td>401-500</td></tr>
+<tr><td>Dalhousie University</td><td>298</td><td>301-400</td><td>301-400</td></tr>
+<tr><td>Rutgers Universityâ€“New Brunswick</td><td>299</td><td>201-250</td><td>101-150</td></tr>
+<tr><td>UCSI University</td><td>300</td><td>-</td><td>N/A</td></tr>
 
 
     </tbody>
     
 </table>
-
-
-
-
-<footer>
-    <p>Encountered an error or have an issue with the website? Please <a href="https://github.com/rishikeshsreehari/unirank/issues/new" target="_blank">create an issue here</a> or <a href="mailto:contact@onerank.world">get in touch with us</a>.</p>
-    <p>Disclaimer: The information on this website is for general informational purposes only. We make no claims regarding the accuracy, completeness, or reliability of this information. Use of our website is at your own risk, and we are not liable for any resulting losses or damages.</p>
+<p>Disclaimer: The information on this website is for general informational purposes only. We make no claims regarding the accuracy, completeness, or reliability of this information. Use of our website is at your own risk, and we are not liable for any resulting losses or damages.</p>
+<!-- Adding the source field formatted as bibliography with accessed dates -->
+<div id="sourceField" class="bibliography">
+    <p>References:</p>
+    <ol>
+        <li id="qs-ranking-ref">QS Top Universities. (2024). QS World University Rankings. Retrieved from <a href="https://www.topuniversities.com/" target="_blank">https://www.topuniversities.com/</a>. Accessed on [Your Access Date Here].</li>
+        <li id="the-ranking-ref">Times Higher Education. (2024). THE World University Rankings. Retrieved from <a href="https://www.timeshighereducation.com/" target="_blank">https://www.timeshighereducation.com/</a>. Accessed on [Your Access Date Here].</li>
+        <li id="arwu-ranking-ref">Shanghai Ranking Consultancy. (2023). Academic Ranking of World Universities. Retrieved from <a href="http://www.shanghairanking.com/" target="_blank">http://www.shanghairanking.com/</a>. Accessed on [Your Access Date Here].</li>
+    </ol>
+</div><footer>
+    <p>Encountered an error or have an issue with the website? Please <a href="https://github.com/rishikeshsreehari/unirank/issues/new" target="_blank">create an issue here</a> or <a href="mailto:hello@unirank.one">get in touch with us</a>.</p>
     <p>&copy; 2024 UniRank.one | All rights reserved.</p>
     <p>Made with ❤️ by <a href="https://rishikeshs.com" target="_blank">Rishikesh</a></p>
 </footer>
@@ -361,3 +367,5 @@
 <script src="js/script.js"></script>
 </body>
 </html>
+
+

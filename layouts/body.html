@@ -1,13 +1,14 @@
 <!-- Search Box -->
 <input type="text" id="searchbox" placeholder="Search by university name...">
 <br>
+
 <table id="universitiesTable">
     <thead>
         <tr>
             <th>University</th>
-            <th data-sort="qs">QS(2024)</th>
-            <th data-sort="times">THE(2024)</th>
-            <th data-sort="shanghai">ARWU(2023)</th>
+            <th data-sort="qs">QS World(2024)<a href="#qs-ranking-ref" style="text-decoration:none"><sup>[1]</sup></a></th>
+            <th data-sort="times">THE World(2024)<a href="#the-ranking-ref" style="text-decoration:none"><sup>[2]</sup></a></th>
+            <th data-sort="shanghai">ARWU World(2023)<a href="#arwu-ranking-ref" style="text-decoration:none"><sup>[3]</sup></a></th>
         </tr>
     </thead>
     <tbody>
@@ -18,7 +19,13 @@
     </tbody>
     
 </table>
-
-
-
-
+<p>Disclaimer: The information on this website is for general informational purposes only. We make no claims regarding the accuracy, completeness, or reliability of this information. Use of our website is at your own risk, and we are not liable for any resulting losses or damages.</p>
+<!-- Adding the source field formatted as bibliography with accessed dates -->
+<div id="sourceField" class="bibliography">
+    <p>References:</p>
+    <ol>
+        <li id="qs-ranking-ref">QS Top Universities. (2024). QS World University Rankings. Retrieved from <a href="https://www.topuniversities.com/" target="_blank">https://www.topuniversities.com/</a>. Accessed on [Your Access Date Here].</li>
+        <li id="the-ranking-ref">Times Higher Education. (2024). THE World University Rankings. Retrieved from <a href="https://www.timeshighereducation.com/" target="_blank">https://www.timeshighereducation.com/</a>. Accessed on [Your Access Date Here].</li>
+        <li id="arwu-ranking-ref">Shanghai Ranking Consultancy. (2023). Academic Ranking of World Universities. Retrieved from <a href="http://www.shanghairanking.com/" target="_blank">http://www.shanghairanking.com/</a>. Accessed on [Your Access Date Here].</li>
+    </ol>
+</div>
