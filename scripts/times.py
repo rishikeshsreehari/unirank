@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 # Initialize a WebDriver
-chrome_driver_path = 'C:/Program Files/Google/Chrome/chromedriver-win64/chromedriver.exe'
+chrome_driver_path = 'C:/Users/rishi/Desktop/chromedriver-win64/chromedriver-win64/chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 # URL of the page to scrape
@@ -28,23 +28,23 @@ while True:
 
     try:
         # Wait for the table to load
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "datatable-1")))
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "rk-table")))
 
         # Extract data from the table
-        table = driver.find_element(By.ID, "datatable-1")
+        table = driver.find_element(By.CLASS_NAME, "rk-table")
         for row in table.find_elements(By.TAG_NAME, 'tr')[1:]:  # Skip the header row
             cols = row.find_elements(By.TAG_NAME, 'td')
             rank = cols[0].text.strip()
             university = cols[1].text.strip().split('\n')[0]  # Get the university name
-            print(rank, university)
+            print(rank,university)
             # Append data to DataFrame
             df = df.append({'Rank': rank, 'Name': university}, ignore_index=True)
 
         # Find the 'Next' button and click
         WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.CLASS_NAME, "dataTables_paginate__next-button"))
+            EC.element_to_be_clickable((By.CLASS_NAME, "ant-pagination-next"))
         )
-        next_button = driver.find_element(By.CLASS_NAME, "dataTables_paginate__next-button")
+        next_button = driver.find_element(By.CLASS_NAME, "ant-pagination-next")
         next_button.click()
 
         # Increment page counter and print it
@@ -68,4 +68,5 @@ driver.quit()
 # Print the DataFrame
 print(df)
 
-df.to_csv("times.csv", index=False)
+df.to_csv("times.csv",index=False)
+
