@@ -135,8 +135,13 @@ header {
     text-decoration: none; /* Removes the underline */
     color: inherit; /* Inherits the color from the parent element */
     /* You can set a specific color if you prefer, e.g., color: #000000; */
+    cursor: pointer;
 }
 
 #site-title h1 {
     margin: 0; /* Removes default margin from the h1 tag if needed */
 }
+
+a {
+    cursor: pointer;
+  }
