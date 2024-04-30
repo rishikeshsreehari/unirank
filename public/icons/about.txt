@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Cantarell
+- Font Author: Copyright 2009 The Cantarell Project Authors (https://github.com/davelab6/cantarell)
+- Font Source: https://fonts.gstatic.com/s/cantarell/v17/B50NF7ZDq37KMUvlO01Ji6hqHK-CLA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
