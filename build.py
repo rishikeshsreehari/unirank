@@ -5,7 +5,8 @@ import os
 
 def generate_html_table(csv_file_path):
     html_rows = ''
-    with open(csv_file_path, newline='', encoding='utf-8') as csvfile:  # Specify UTF-8 encoding
+    with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
+        # Specify UTF-8 encoding
         reader = csv.reader(csvfile)
         next(reader, None)  # Skip the header row
         for row in reader:
@@ -13,9 +14,10 @@ def generate_html_table(csv_file_path):
                 continue
             html_rows += '<tr>'
             for cell in row:
-                html_rows += f'<td>{html.escape(cell)}</td>'
+                html_rows += f'<td><span>{html.escape(cell)}</span></td>'
             html_rows += '</tr>\n'
     return html_rows
+
 
 def read_html_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
