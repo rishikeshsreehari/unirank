@@ -145,3 +145,10 @@ header {
 a {
     cursor: pointer;
   }
+
+span {
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}   
