@@ -152,3 +152,35 @@ span {
     color: inherit;
     text-decoration: none;
   }
+
+
+#about-link,
+#coffee-icon,
+#dark-light-toggle {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+/* Adjust size and spacing of the coffee icon */
+#coffee-icon {
+    font-size: 20px; /* Adjust size as needed */
+}
+
+
+#coffee-link {
+    text-decoration: none; /* Removes underline */
+    cursor: pointer; /* Show link pointer cursor */
+}
+
+#coffee-icon {
+    color: #ffffff; /* Text color for dark mode */
+    font-weight: bold; /* Makes text bold */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+#coffee-icon:hover {
+    background-color: #ffffff; /* Hover background color for dark mode */
+    color: #000000; /* Hover text color for dark mode */
+}

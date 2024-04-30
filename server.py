@@ -8,7 +8,7 @@ PORT = 8000 # Website will be available at http://localhost:8000/
 current_directory = os.getcwd()
 
 # Set the current directory as the working directory for the HTTP server
-os.chdir(current_directory)
+os.chdir(current_directory+'/public')
 
 handler = http.server.SimpleHTTPRequestHandler
 
